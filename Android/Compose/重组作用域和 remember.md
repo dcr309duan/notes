@@ -52,3 +52,23 @@ remember 起到缓存作用，只在第一次调用时会进行初始化。
 
 我们的代码，不确定会在什么地方调用，所以，只要在 Composable 函数中定义 mutableState，就应该使用 remember 进行包裹
 
+### 带参数的使用
+
+看如下代码的实现：
+
+```kotlin
+@Composable  
+fun ShowCharCount(value: String) {  
+    val length = remember(value) {  
+        value.length  
+    }  
+  
+    Text(text = "字符串的长度是：$length")  
+}
+```
+
+1. 这是一个 Composable 函数，所以可能会被频繁调用
+2. 这里对入参 `value` 计算了其长度，这个操作不耗时，但是这里可能会做网络请求等耗时操作
+3. 所以我们为了避免频繁进行计算长度的操作，使用了 `remember`
+4. 但是，只使用 `remember` 还不够，因为会导致 value 值变化的时候，不会重新计算
+5. 所以，这里在调用 remember 时，将 `value` 作为参数 `key` 传入，这样，在 key 发生变化时，会重新计算 length 的值，满足了我们的诉求
