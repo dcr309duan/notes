@@ -37,14 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "obsidian 配置/obsidian 配置 GitHub 同步.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -170,13 +170,14 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
-      "workspaces:Manage workspace layouts": false
+      "workspaces:Manage workspace layouts": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b0eb514617bfc439",
+  "active": "1e8c7098bb04b1d7",
   "lastOpenFiles": [
-    "obsidian 配置/obsidian 配置汇总.md",
     "README.md",
+    "obsidian 配置/obsidian 配置汇总.md",
     "obsidian 配置/obsidian 配置 GitHub 同步.md",
     "obsidian 配置/attachments/image-20230415194648194.png",
     "obsidian 配置/attachments",

@@ -50,5 +50,15 @@
       ],
       "key": "B"
     }
+  ],
+  "editor:fold-less": [],
+  "editor:fold-more": [],
+  "editor:toggle-fold": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "="
+    }
   ]
 }
