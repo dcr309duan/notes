@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "c6cdd96e1a78fa26",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Android/Compose/无状态、状态提升和单向数据流.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "1e8c7098bb04b1d7",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Android/Compose/重组作用域和 remember.md",
+                "file": "Android/Compose/无状态、状态提升和单向数据流.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Android/Compose/重组作用域和 remember.md",
+                "file": "Android/Compose/无状态、状态提升和单向数据流.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,16 +151,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Android/Compose/重组作用域和 remember.md"
+                "file": "Android/Compose/无状态、状态提升和单向数据流.md"
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -162,10 +176,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6fd72d3c9d191085",
+  "active": "c6cdd96e1a78fa26",
   "lastOpenFiles": [
-    "obsidian 配置/obsidian 配置 GitHub 同步.md",
     "Android/Compose/重组作用域和 remember.md",
+    "Android/Compose/无状态、状态提升和单向数据流.md",
+    "obsidian 配置/obsidian 配置 GitHub 同步.md",
     "obsidian 配置/attachments/Pasted image 20230415215502.png",
     "obsidian 配置/attachments/Pasted image 20230415215425.png",
     "AI 学习",
