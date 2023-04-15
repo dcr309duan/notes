@@ -6,3 +6,4 @@
 
 ## 如何维护
 
+[[obsidian 配置 GitHub 同步]]
