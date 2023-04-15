@@ -34,7 +34,9 @@ class MutableStateActivity : ComponentActivity() {
 
 上面代码虽然能编译过，但是 IDE 其实会给标红给我们提示，让我们使用 remember 进行包裹，使用这样的方式定义：
 
+```kotlin
 var name by remember { mutableStateOf("mlya") }
+```
 
 ## 知识点：remember
 
@@ -49,3 +51,4 @@ remember 起到缓存作用，只在第一次调用时会进行初始化。
 ### 什么时候应该使用
 
 我们的代码，不确定会在什么地方调用，所以，只要在 Composable 函数中定义 mutableState，就应该使用 remember 进行包裹
+
