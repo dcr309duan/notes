@@ -111,7 +111,7 @@
               "type": "backlink",
               "state": {
                 "file": "obsidian 配置/obsidian 配置 GitHub 同步.md",
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -154,12 +154,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -174,11 +174,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1e8c7098bb04b1d7",
+  "active": "2b34947d22f38527",
   "lastOpenFiles": [
+    "AI 学习",
+    "().md",
+    "obsidian 配置/obsidian 配置 GitHub 同步.md",
     "README.md",
     "obsidian 配置/obsidian 配置汇总.md",
-    "obsidian 配置/obsidian 配置 GitHub 同步.md",
     "obsidian 配置/attachments/image-20230415194648194.png",
     "obsidian 配置/attachments",
     "Android/Compose/重组作用域和 remember.md",
