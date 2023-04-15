@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian 配置/obsidian 配置汇总.md",
+                "file": "obsidian 配置/obsidian 配置 GitHub 同步.md",
                 "mode": "source",
                 "source": false
               }
@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "obsidian 配置/obsidian 配置 GitHub 同步.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "obsidian 配置/obsidian 配置 GitHub 同步.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "obsidian 配置/obsidian 配置 GitHub 同步.md"
               }
             }
           }
@@ -173,7 +173,7 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "1e8c7098bb04b1d7",
+  "active": "b0eb514617bfc439",
   "lastOpenFiles": [
     "obsidian 配置/obsidian 配置汇总.md",
     "README.md",
