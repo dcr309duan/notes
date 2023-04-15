@@ -14,8 +14,21 @@
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "f3495e319738dffb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "obsidian 配置/obsidian 配置记录.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "obsidian 配置/obsidian 配置记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "obsidian 配置/obsidian 配置记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "obsidian 配置/obsidian 配置记录.md"
+              }
             }
           }
         ]
@@ -139,8 +156,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "9f3ffc0b557f3af9",
+  "active": "f3495e319738dffb",
   "lastOpenFiles": [
+    "obsidian 配置/obsidian 配置记录.md",
+    "obsidian 配置",
     "未命名.canvas"
   ]
 }
