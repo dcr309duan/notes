@@ -72,3 +72,4 @@ fun ShowCharCount(value: String) {
 3. 所以我们为了避免频繁进行计算长度的操作，使用了 `remember`
 4. 但是，只使用 `remember` 还不够，因为会导致 value 值变化的时候，不会重新计算
 5. 所以，这里在调用 remember 时，将 `value` 作为参数 `key` 传入，这样，在 key 发生变化时，会重新计算 length 的值，满足了我们的诉求
+
