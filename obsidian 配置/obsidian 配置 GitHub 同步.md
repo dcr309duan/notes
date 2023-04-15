@@ -21,4 +21,15 @@ obsidian 的同步方案比较
 
 obsidian 配置 github 自动同步，需要使用 [obsidian-git](obsidian://show-plugin?id=obsidian-git) 插件，首先进行插件的安装，这个直接在 obsidian 的插件配置中心下载安装即可。
 
-### 
+### 配置 git 仓库
+
+#### 创建 git 本地仓库
+
+obsidian 默认没有创建 git 仓库，需要我们自己创建一下 git 仓库
+
+1. 找到 obsidian 的 vault 目录
+2. 然后 `git init` 创建 git 仓库
+
+#### 创建 GitHub 仓库
+
+我们在 GitHub 上创建一下
