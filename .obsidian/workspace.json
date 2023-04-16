@@ -56,18 +56,6 @@
             }
           },
           {
-            "id": "722480039971122a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Android/Compose/状态订阅和自动更新/状态机制的背后.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "d2631c16d4b80bc4",
             "type": "leaf",
             "state": {
@@ -80,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -221,9 +209,9 @@
   },
   "active": "d2631c16d4b80bc4",
   "lastOpenFiles": [
-    "Android/Compose/状态订阅和自动更新/状态机制的背后.md",
-    "Android/Compose/状态订阅和自动更新/自定义类型.md",
     "Android/Compose/状态订阅和自动更新/重组的性能风险和智能优化、@Stable.md",
+    "Android/Compose/状态订阅和自动更新/自定义类型.md",
+    "Android/Compose/状态订阅和自动更新/状态机制的背后.md",
     "Android/Compose/状态订阅和自动更新/attachments/Pasted image 20230416195314.png",
     "Android/Compose/状态订阅和自动更新/attachments/Pasted image 20230416195115.png",
     "Android/Compose/状态订阅和自动更新/attachments/Pasted image 20230416194757.png",

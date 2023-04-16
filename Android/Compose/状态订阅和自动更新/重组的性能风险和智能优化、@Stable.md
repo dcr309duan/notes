@@ -102,3 +102,4 @@ setContent {
 
 ![[Pasted image 20230416195314.png]]
 
+## Stable 的问题可以看：[[自定义类型]]
