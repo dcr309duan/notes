@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "cc2ec2eac8168551",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Android/Compose/状态订阅和自动更新/重组的性能风险和智能优化、@Stable.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -111,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Android/Compose/状态订阅和自动更新/状态机制的背后.md",
+                "file": "Android/Compose/状态订阅和自动更新/重组的性能风险和智能优化、@Stable.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Android/Compose/状态订阅和自动更新/状态机制的背后.md",
+                "file": "Android/Compose/状态订阅和自动更新/重组的性能风险和智能优化、@Stable.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Android/Compose/状态订阅和自动更新/状态机制的背后.md"
+                "file": "Android/Compose/状态订阅和自动更新/重组的性能风险和智能优化、@Stable.md"
               }
             }
           },
@@ -183,14 +195,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "81d5f79c3ca9b2fb",
+  "active": "cc2ec2eac8168551",
   "lastOpenFiles": [
+    "Android/Compose/状态订阅和自动更新/状态机制的背后.md",
+    "Android/Compose/状态订阅和自动更新/重组的性能风险和智能优化、@Stable.md",
     "Android/Compose/状态订阅和自动更新/attachments/Pasted image 20230416165955.png",
     "Android/Compose/状态订阅和自动更新/attachments/device-2023-04-16-165510 1.mp4",
     "Android/Compose/状态订阅和自动更新/attachments/device-2023-04-16-165510.mp4",
     "Android/Compose/状态订阅和自动更新/attachments/device-2023-04-16-165328.mp4",
     "Android/Compose/状态订阅和自动更新/无状态、状态提升和单向数据流.md",
-    "Android/Compose/状态订阅和自动更新/状态机制的背后.md",
     "Android/Compose/状态订阅和自动更新/状态订阅与自动更新.md",
     "Android/Compose/状态订阅和自动更新/attachments/device-2023-04-16-163307.mp4",
     "Android/Compose/状态订阅和自动更新/attachments/device-2023-04-16-163220.webm",
