@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian 配置/obsidian 配置 GitHub 同步.md",
+                "file": "Android/Compose/状态订阅和自动更新/derivedStateOf 和 remember 的区别.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "37a6b38c6e378df2",
@@ -146,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian 配置/obsidian 配置 GitHub 同步.md",
+                "file": "Android/Compose/状态订阅和自动更新/derivedStateOf 和 remember 的区别.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian 配置/obsidian 配置 GitHub 同步.md",
+                "file": "Android/Compose/状态订阅和自动更新/derivedStateOf 和 remember 的区别.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian 配置/obsidian 配置 GitHub 同步.md"
+                "file": "Android/Compose/状态订阅和自动更新/derivedStateOf 和 remember 的区别.md"
               }
             }
           },
@@ -220,6 +221,7 @@
   },
   "active": "ea882b69f56c99eb",
   "lastOpenFiles": [
+    "obsidian 配置/obsidian 配置 GitHub 同步.md",
     "obsidian 配置/obsidian 配置汇总.md",
     "Android/Compose/状态订阅和自动更新/derivedStateOf 和 remember 的区别.md",
     "AI 学习/AutoGPT/Android Programmer.md",
@@ -244,7 +246,6 @@
     "Android/Compose/状态订阅和自动更新/重组作用域和 remember.md",
     "Android/Compose/动画",
     "Android/Compose/状态订阅和自动更新",
-    "obsidian 配置/obsidian 配置 GitHub 同步.md",
     "2023-04-16.md",
     "README.md",
     "obsidian 配置/attachments/Pasted image 20230415215502.png",
