@@ -30,4 +30,6 @@ fun TodoList(highPriorityKeywords: List<String> = listOf("Review", "Unblock", "C
 
 上面是官方给的示例，解释如下：
 
-1. 
+1. 包含了两个 State，一个是 todoTasks，一个是 highPriorityTasks
+2. hightPriorityTasks 是从 todoTasks 生成出来的
+3. 
