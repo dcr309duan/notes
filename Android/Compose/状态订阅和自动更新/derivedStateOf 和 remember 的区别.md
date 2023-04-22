@@ -144,6 +144,6 @@ Column {
 
 1. 监听状态变化从而自动刷新，有两种写法
 	1. 带参数的 `remember()`
-	2. `remember() + derivedStateOf()`
+	2. `remember() + derivedStateOf()`，remember 最好带参数
 2. 对于状态对象来说，因为其对象本身并不会变化，所以需要使用 `derivedStateOf()`
-3. 如果是 `List` 之类的集合对象，也应该使用 `derivedStateOf()`，因为对象本身仍然是并不会变化，而 List 通常使用的 `mut`
+3. 如果是 `List` 之类的集合对象，也应该使用 `derivedStateOf()`，因为对象本身仍然是并不会变化，而 List 通常使用的 `mutableStateListOf()` 创建的 `List`，我们可以通过 `derivedStateOf()` 监听到其变化
