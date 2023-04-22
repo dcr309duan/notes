@@ -41,3 +41,54 @@ derivedStateOf 是用于处理两个状态变量相互依赖的场景的。被�
 
 ## derivedStateOf 使用场景
 
+### 使用场景分析
+
+下面是一个使用场景：
+
+1. 两个状态，一个是 name，另一个是 processedName
+2. processedName 是 name 通过 derivedStateOf 生成的
+
+```kotlin
+var name by remember {  
+    mutableStateOf("mlya")  
+}  
+val processedName by remember {  
+    derivedStateOf { name.uppercase() }  
+}  
+  
+Column {  
+    Text(text = processedName)  
+    Button(onClick = { name = "hongzheng" }) {  
+        Text(text = "将 name 改为 hongzheng")  
+    }  
+}
+```
+
+另一种写法是，也能实现同样的效果：
+
+```kotlin
+var name by remember {  
+    mutableStateOf("mlya")  
+}  
+val processedName = remember(name) {  
+    name.uppercase()  
+}  
+  
+Column {  
+    Text(text = processedName)  
+    Button(onClick = { name = "hongzheng" }) {  
+        Text(text = "将 name 改为 hongzheng")  
+    }  
+}
+```
+
+### 区别分析
+
+1. 第一种写法，processedName 是一个 State，第二种写法，processedName 就是一个普通变量
+2. 第二种写法，remember 增加了一个参数，作用是，当 name 变化时，重新计算 processedName
+3. 第一种写法 remember 没有参数，processedName 的代码中，不会重复执行 `derivedStateOf {}` 这段代码，但是会执行 `derivedStateOf` 的大括号内部的代码，获取到新值，更新 processedName 这个状态
+
+上面暂时看不出两种方式的区别，我们看下面的代码：
+
+
+
