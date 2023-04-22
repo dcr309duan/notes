@@ -134,4 +134,6 @@ Column {
 ```
 
 1. processedName 使用 `by derivedStateOf` 来实现，注意这里使用的是 by 关键字做了动态代理
-2. 
+2. 当 names 内容变化时，会通知读取其值的代码块执行
+3. 虽然 processedNames 的 remember 代码不会重复执行，但是在 derivedStateOf 内部的代码会执行，导致 processedNames 这个 State 进行变化
+4. processedNames 这个 State 变化了，会通知读取其值的地方刷新
