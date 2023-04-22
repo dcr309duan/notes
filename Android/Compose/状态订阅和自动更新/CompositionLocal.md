@@ -84,4 +84,10 @@ fun MaterialTheme(
 
 ## staticCompositionLocalOf
 
-static 的不会触发重组，非 static 的是会触发重组的
+- static 是全量触发重组，非 static 的是精准触发重组
+- 但是 static 不需要记录，非 static 会记录调用处
+- 如果经常改变，那么用非 static 的，降低重组消耗；如果不经常改变，那么用 static
+
+例如：
+- LocalContext: staticCompositionLocalOf
+- LocalContentColor: compositionLocalOf 
