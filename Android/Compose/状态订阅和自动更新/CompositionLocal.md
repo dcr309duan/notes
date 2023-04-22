@@ -76,6 +76,8 @@ fun MaterialTheme(
     }}
 ```
 
+如果我们对于一个变量的诉求，是「从下向上」思考的，那么应该使用函数参数来处理；如果是「从上向下」思考的，那么可以考虑使用 CompositionLocal。
+
 ## compositionLocalOf 的默认值的用处
 
 在理解了 CompositionLocal 的基本使用方法之后，`compositionLocalOf` 默认值的用处也就显而易见了，那就是在 CompositionLocalProvider 中没有提供对应的值时，会取到默认值。
