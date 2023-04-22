@@ -81,3 +81,7 @@ fun MaterialTheme(
 ## compositionLocalOf 的默认值的用处
 
 在理解了 CompositionLocal 的基本使用方法之后，`compositionLocalOf` 默认值的用处也就显而易见了，那就是在 CompositionLocalProvider 中没有提供对应的值时，会取到默认值。
+
+## staticCompositionLocalOf
+
+static 的不会触发重组，非 static 的是会触发重组的
