@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "效率/vim/LunarVim.md",
+                "file": "Android/Compose/状态订阅和自动更新/derivedStateOf 和 remember 的区别.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "效率/vim/LunarVim.md",
+                "file": "Android/Compose/状态订阅和自动更新/derivedStateOf 和 remember 的区别.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "效率/vim/LunarVim.md",
+                "file": "Android/Compose/状态订阅和自动更新/derivedStateOf 和 remember 的区别.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "效率/vim/LunarVim.md"
+                "file": "Android/Compose/状态订阅和自动更新/derivedStateOf 和 remember 的区别.md"
               }
             }
           },
@@ -143,7 +143,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
