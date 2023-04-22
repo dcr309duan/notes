@@ -117,3 +117,21 @@ Column {
 2. 但是，在 `1` 这处代码执行时，因为 names 是同一个对象，所以所以不会执行 `2` 这里的代码
 3. 导致后面 recompose 时，processedName 的值还是同样的值，界面不会刷新
 
+改成如下方式：
+
+```kotlin
+val names = remember { mutableStateListOf("mlya") }  
+  
+val processedNames by remember(names) { derivedStateOf { names.map { it.uppercase() } } }  
+  
+Column {  
+    for (processedName in processedNames) {  
+        Text(text = processedName)  
+    }    Text(text = "增加一个内容", Modifier.clickable {  
+        names.add("hongzheng")  
+    })  
+}
+```
+
+1. processedName 使用 `by derivedStateOf` 来实现，注意这里使用的是 by 关键字做了动态代理
+2. 
