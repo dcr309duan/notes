@@ -185,6 +185,8 @@
   },
   "active": "0ae729e25a09970f",
   "lastOpenFiles": [
+    "ChatGPT_MD/chats/20230422222745.md",
+    "Android/Compose/状态订阅和自动更新/CompositionLocal.md",
     "Android/Compose/状态订阅和自动更新/状态机制的背后.md",
     "Android/Compose/状态订阅和自动更新/状态订阅与自动更新.md",
     "Android/Compose/状态订阅和自动更新/自定义类型.md",
@@ -193,7 +195,6 @@
     "Android/Compose/状态订阅和自动更新/无状态、状态提升和单向数据流.md",
     "Android/Compose/状态订阅和自动更新/derivedStateOf 和 remember 的区别.md",
     "Android/Kotlin/infix 中缀函数.md",
-    "Android/Compose/状态订阅和自动更新/CompositionLocal.md",
     "Android/Kotlin",
     "ChatGPT_MD/templates",
     "ChatGPT_MD/chats",

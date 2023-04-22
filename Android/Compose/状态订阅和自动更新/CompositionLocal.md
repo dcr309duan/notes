@@ -1,8 +1,3 @@
-# 什么是 CompositionLocal？
-
-
-- CompositionLocal 一般以 Local/local 打头
-
 # CompositionLocal 的基本使用方式
 
 ```kotlin
@@ -34,4 +29,9 @@ fun User() {
 1. `compositionLocalOf` 函数的默认参数是干什么的？
 2. CompositionLocal 的使用场景是什么？
 
-#
+## CompositionLocal 的使用场景
+
+CompositionLocal 可以看作是一种「不用传递的函数参数」。
+
+那么，什么场景需要使用这种「不用传递的函数参数」呢？
+
