@@ -90,5 +90,30 @@ Column {
 
 上面暂时看不出两种方式的区别，我们看下面的代码：
 
+```kotlin
+val names = remember {  
+    mutableStateListOf("mlya")  
+}  
 
+// 1
+val processedNames = remember(names) {  
+	// 2
+    names.map { it.uppercase() }  
+}  
+  
+Column {  
+    for (processedName in processedNames) {  
+        Text(text = processedName)  
+    }  
+    Text(text = "增加一个内容", Modifier.clickable {  
+        names.add("hongzheng")  
+    })  
+}
+```
+
+上面的这段代码，执行的时候就有问题了，点击了之后，并不会刷新 UI。分析如下：
+
+1. names 增加了一个对象，读 names 的地方就会重复执行，也就是上面的这段代码会重新执行
+2. 但是，在 `1` 这处代码执行时，因为 names 是同一个对象，所以所以不会执行 `2` 这里的代码
+3. 导致后面 recompose 时，processedName 的值还是同样的值，界面不会刷新
 
