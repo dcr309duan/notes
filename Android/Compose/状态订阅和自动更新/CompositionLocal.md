@@ -39,5 +39,12 @@ CompositionLocal 可以看作是一种「不用传递的函数参数」。
 
 我还能想到的一些场景有：
 
+- 上下文、环境类型的数据
+	- 例如：LocalContext
 - 日志
-- 
+- 应用主题 -- 亮色模式，暗色模式等 
+- 灰度开关
+
+## compositionLocalOf 的默认值的用处
+
+在理解了 CompositionLocal 的基本使用方法之后，`compositionLocalOf` 默认值的用处也就显而易见了，那就是在 CompositionLocalProvider 中没有提供对应的值时，会取到默认值。
