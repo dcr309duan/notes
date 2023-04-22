@@ -45,6 +45,37 @@ CompositionLocal 可以看作是一种「不用传递的函数参数」。
 - 应用主题 -- 亮色模式，暗色模式等 
 - 灰度开关
 
+例如，MaterialTheme 就使用了 ComposeLocal 来设置主题：
+
+```kotlin
+@Composable  
+fun MaterialTheme(  
+    colors: Colors = MaterialTheme.colors,  
+    typography: Typography = MaterialTheme.typography,  
+    shapes: Shapes = MaterialTheme.shapes,  
+    content: @Composable () -> Unit  
+) {  
+    val rememberedColors = remember {  
+        // Explicitly creating a new object here so we don't mutate the initial [colors]  
+        // provided, and overwrite the values set in it.        colors.copy()  
+    }.apply { updateColorsFrom(colors) }  
+    val rippleIndication = rememberRipple()  
+    val selectionColors = rememberTextSelectionColors(rememberedColors)  
+    CompositionLocalProvider(  
+        LocalColors provides rememberedColors,  
+        LocalContentAlpha provides ContentAlpha.high,  
+        LocalIndication provides rippleIndication,  
+        LocalRippleTheme provides MaterialRippleTheme,  
+        LocalShapes provides shapes,  
+        LocalTextSelectionColors provides selectionColors,  
+        LocalTypography provides typography  
+    ) {  
+        ProvideTextStyle(value = typography.body1) {  
+            PlatformMaterialTheme(content)  
+        }  
+    }}
+```
+
 ## compositionLocalOf 的默认值的用处
 
 在理解了 CompositionLocal 的基本使用方法之后，`compositionLocalOf` 默认值的用处也就显而易见了，那就是在 CompositionLocalProvider 中没有提供对应的值时，会取到默认值。

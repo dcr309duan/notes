@@ -3,5 +3,6 @@
   "table-editor-obsidian",
   "cm-typewriter-scroll-obsidian",
   "chatgpt-md",
-  "obsidian-latex-suite"
+  "obsidian-latex-suite",
+  "cm-chs-patch"
 ]
