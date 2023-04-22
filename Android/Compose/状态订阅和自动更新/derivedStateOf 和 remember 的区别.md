@@ -137,3 +137,5 @@ Column {
 2. 当 names 内容变化时，会通知读取其值的代码块执行
 3. 虽然 processedNames 的 remember 代码不会重复执行，但是在 derivedStateOf 内部的代码会执行，导致 processedNames 这个 State 进行变化
 4. processedNames 这个 State 变化了，会通知读取其值的地方刷新
+5. `derivedStateOf` 负责在 names 变了的时候，能够刷新
+6. `remember` 负责保持 processedNames 不做无用的初始化操作
