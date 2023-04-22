@@ -32,4 +32,7 @@ fun TodoList(highPriorityKeywords: List<String> = listOf("Review", "Unblock", "C
 
 1. 包含了两个 State，一个是 todoTasks，一个是 highPriorityTasks
 2. hightPriorityTasks 是从 todoTasks 生成出来的
-3. 
+3. derivedStateOf 的作用是，在其依赖的其他状态变化的时候，执行大括号中的代码
+4. 大括号中代码执行后，如果 highPriorityTasks 内容发生了变化，则会通知读过 highPriorityTasks 的 Composable 函数标记为失效，在后面进行重组
+
+
