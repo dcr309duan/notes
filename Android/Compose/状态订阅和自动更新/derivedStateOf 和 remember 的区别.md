@@ -139,3 +139,11 @@ Column {
 4. processedNames 这个 State 变化了，会通知读取其值的地方刷新
 5. `derivedStateOf` 负责在 names 变了的时候，能够刷新
 6. `remember` 负责保持 processedNames 不做无用的初始化操作
+
+## 总结
+
+1. 监听状态变化从而自动刷新，有两种写法
+	1. 带参数的 `remember()`
+	2. `remember() + derivedStateOf()`
+2. 对于状态对象来说，因为其对象本身并不会变化，所以需要使用 `derivedStateOf()`
+3. 如果是 `List` 之类的集合对象，也应该使用 `derivedStateOf()`，因为对象本身仍然是并不会变化，而 List 通常使用的 `mut`
