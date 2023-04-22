@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "62799813ea018014",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Android/Compose/状态订阅和自动更新/derivedStateOf 和 remember 的区别.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "55673d3f9d378df8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Android/Compose/状态订阅和自动更新/CompositionLocal.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "0ae729e25a09970f",
             "type": "leaf",
             "state": {
@@ -43,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 222.5
   },
   "right": {
     "id": "37a6b38c6e378df2",
