@@ -15,8 +15,23 @@ CompositionLocalProvider(LocalName provides "mlya") {
 
 @Composable  
 fun User() {  
-	// 这里没有通过函数参数传递，而是
+	// 这里没有通过函数参数传递，而是通过 CompositionLocal 来获取
     Text(LocalName.current)  
 }
 ```
 
+使用说明：
+
+1. 使用 `compositionLocalOf` 函数创建一个 CompositionLocal 变量
+	1. 因为是一个全局变量，所以首字母大写
+	2. Compose 中，CompositionLocal 变量约定使用 local/Local 开头
+2. 使用 `CompositionLocalProvider` 来设置 CompositionLocal 的变量
+	1. `provides` 是一个 [[infix 中缀函数]]，在调用时可以不用 `.` 和 `()`
+	2. `CompositionLocalProvider` 的函数参数列表中，定义了 CompositionLocal 变量在这个作用域的范围内的值
+
+遗留的问题：
+
+1. `compositionLocalOf` 函数的默认参数是干什么的？
+2. CompositionLocal 的使用场景是什么？
+
+#
