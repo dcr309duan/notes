@@ -22,3 +22,9 @@ setContent {
 4. recompose 时，虽然不会重复创建 State 值，但是会重新计算 targetValue 值
 5. 内部会启动一个协程，以渐变的方式修改 State 的值，通知对应的 UI 去触发 recompose 进行更新
 
+
+## 缺陷
+
+这种动画实现不够灵活，无法对动画做出太详细的定制。
+
+灵活的动画定制，可以使用 [[Animatable]]
