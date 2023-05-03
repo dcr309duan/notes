@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ba7186a7ed99f580",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Android/Compose/动画/AnimationSpec.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -123,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Android/Compose/动画/Animatable.md",
+                "file": "Android/Compose/动画/AnimationSpec.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Android/Compose/动画/Animatable.md",
+                "file": "Android/Compose/动画/AnimationSpec.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Android/Compose/动画/Animatable.md"
+                "file": "Android/Compose/动画/AnimationSpec.md"
               }
             }
           },
@@ -195,12 +207,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fc19be561d691d7e",
+  "active": "ba7186a7ed99f580",
   "lastOpenFiles": [
+    "Android/Compose/动画/Animatable.md",
+    "Android/Compose/动画/AnimationSpec.md",
     "Android/Compose/状态订阅和自动更新/derivedStateOf 和 remember 的区别.md",
     "Android/Compose/状态订阅和自动更新/CompositionLocal.md",
     "Android/Compose/动画/AnimateXXX.md",
-    "Android/Compose/动画/Animatable.md",
     "Final Cut Pro/学习资源.md",
     "Final Cut Pro",
     "Android/Compose/动画/attachments/Pasted image 20230503130656.png",
