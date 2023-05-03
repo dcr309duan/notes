@@ -28,6 +28,6 @@ density 的作用是，在计算惯性滑动时，会根据像素密度进行计
 
 > 注意：
 > splineBasedDecay 只能用来计算基于像素的动画，不能用在角度的动画或者 dp 的动画。
-
+> exponentialDecay 可以用于任何类型
 
 
