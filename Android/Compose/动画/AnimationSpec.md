@@ -38,3 +38,18 @@ class TweenSpec<T>(
 - LinearOutSlowInEasing
 - FastOutLinearInEasing
 - LinearEasing
+
+### 自定义 Easing
+
+例如，匀速动画：
+
+```kotlin
+offsetAnim.animateTo(offset, TweenSpec(easing = { it }))
+```
+
+动画完成度 **等于** 时间完成度，直接返回了 `it`
+
+一般我们不需要自定义 Easing
+
+### 贝塞尔曲线完成动画
+
