@@ -51,5 +51,8 @@ offsetAnim.animateTo(offset, TweenSpec(easing = { it }))
 
 一般我们不需要自定义 Easing
 
-### 贝塞尔曲线完成动画
+### 贝塞尔（Bezier）曲线完成动画
 
+Compose 默认的 Easing，使用的就是 **三阶贝塞尔曲线（CubicBezierEasing）** 完成的
+
+一个实用的工具网站：[cubic-bezier](https://cubic-bezier.com/#.17,.67,.83,.67)
