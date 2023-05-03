@@ -15,9 +15,9 @@
 
 ## DecayAnimationSpec
 
-- splineBasedDecay
+- splineBasedDecay: 样条算法
 - rememberSplineBasedDecay
-- exponentialDecay
+- exponentialDecay: 指数衰减
 
 ### splineBasedDecay 和 rememberSplineBasedDecay 的区别
 
@@ -25,4 +25,9 @@
 - rememberSplineBasedDecay 不需要传递这个参数
 
 density 的作用是，在计算惯性滑动时，会根据像素密度进行计算。
+
+> 注意：
+> splineBasedDecay 只能用来计算基于像素的动画，不能用在角度的动画或者 dp 的动画。
+
+
 
