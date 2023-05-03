@@ -167,4 +167,7 @@ fun <T> repeatable(
 )
 ```
 
-- `iterations`: 
+- `iterations`: 重复次数
+- `animation`: 动画
+- `repeatMode`: 有两种模式，`Restart` or `Reverse`
+- `initialStartOffset`: 
