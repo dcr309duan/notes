@@ -12,3 +12,12 @@
 ```kotlin
 
 ```
+
+## DecayAnimationSpec
+
+- splineBasedDecay
+- rememberSplineBasedDecay
+- exponentialDecay
+
+### splineBasedDecay 和 rememberSplineBasedDecay 的区别
+
