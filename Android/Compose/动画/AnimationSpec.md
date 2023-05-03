@@ -128,3 +128,19 @@ spring 函数有三个参数：
 	- 这个值设置的越大，回弹的越慢
 	- 设置的越小，弹性就越厉害
 - `stiffness`: 钢度，弹窗的硬度，有多快能弹回去
+- `visibilityThreshold`: 可视阈值
+	- 弹簧模型没法按照时间去结束动画
+	- 通过这个阈值来结束动画，默认为 0.01
+	- ![[Pasted image 20230503181758.png]]
+
+## 动画初始速度
+
+如果我们需要动画原地震动，可以设置一个初始速度。
+
+```kotlin
+anim.animateTo(  
+    48.dp,  
+    spring(0.1f, stiffness = Spring.StiffnessVeryLow),  
+    initialVelocity = 2000.dp  // 设置初始速度，实现弹簧震动的效果
+)
+```
