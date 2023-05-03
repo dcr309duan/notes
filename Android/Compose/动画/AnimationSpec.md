@@ -113,3 +113,18 @@ anim.animateTo(size, keyframes {
 
 DurationBasedAnimation 都是固定时长的动画，另一类动画，例如弹簧动画，是模拟物理规律实现的动画，无法精确指定动画时长，需要通过实时计算来完成动画。
 
+```kotlin
+fun <T> spring(  
+    dampingRatio: Float = Spring.DampingRatioNoBouncy,  
+    stiffness: Float = Spring.StiffnessMedium,  
+    visibilityThreshold: T? = null  
+)
+```
+
+spring 函数有三个参数：
+
+- `dampingRation`: 阻尼比，设置弹簧的弹性。
+	- 默认为 1，不会弹过头，回去就停下来。
+	- 这个值设置的越大，回弹的越慢
+	- 设置的越小，弹性就越厉害
+- `stiffness`: 钢度，弹窗的硬度，有多快能弹回去
