@@ -62,3 +62,13 @@ Compose 默认的 Easing，使用的就是 **三阶贝塞尔曲线（CubicBezier
 # SnapSpec
 
 Snap 是没有中间过程，直接变成目标值的动画类型，和 `snapTo` 的效果一致。
+
+有一个参数，可以指定延迟
+
+```kotlin
+anim.animateTo(size, snap(1000))
+```
+
+# KeyframesSpec
+
+
