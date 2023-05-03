@@ -17,6 +17,8 @@ AnimationSpec 继承树：
 ![[Pasted image 20230503152109.png]]
 # TweenSpec
 
+Tween 可以理解为补间动画，表示起点和终点之间如何填充动画。
+
 ```kotlin
 @Immutable  
 class TweenSpec<T>(  
@@ -56,3 +58,6 @@ offsetAnim.animateTo(offset, TweenSpec(easing = { it }))
 Compose 默认的 Easing，使用的就是 **三阶贝塞尔曲线（CubicBezierEasing）** 完成的
 
 一个实用的工具网站：[cubic-bezier](https://cubic-bezier.com/#.17,.67,.83,.67)
+
+# SnapSpec
+
