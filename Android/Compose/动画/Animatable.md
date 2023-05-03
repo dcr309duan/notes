@@ -39,19 +39,24 @@ LaunchedEffect 会传入 key，当 key 的值变化的时候，才会重新执�
 
 ### 使用 `animateTo` 去更新变量的值
 
+animateTo 需要在协程环境中执行，动画将按照一定值变化为目标值。
 
+完整的例子如下：
 
 ```kotlin
-val anim = remember {  
-    Animatable(48.dp, Dp.VectorConverter)  
-}  
-LaunchedEffect(Unit) {  
-    delay(2000)  
-    anim.animateTo(96.dp)  
-}  
-Box(  
-    Modifier  
-        .size(anim.value)  
-        .background(Color.Green)  
-        .clickable { big = !big }) {}
+var big by mutableStateOf(false)  
+setContent {  
+    val anim = remember {  
+        Animatable(48.dp, Dp.VectorConverter)  
+    }  
+    LaunchedEffect(big) {  
+        anim.animateTo(if (big) 96.dp else 48.dp)  
+    }  
+    Box(  
+        Modifier  
+            .size(anim.value)  
+            .background(Color.Green)  
+            .clickable { big = !big }) {}  
+}
 ```
+
