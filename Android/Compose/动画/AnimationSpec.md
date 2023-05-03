@@ -144,3 +144,27 @@ anim.animateTo(
     initialVelocity = 2000.dp  // 设置初始速度，实现弹簧震动的效果
 )
 ```
+
+## RepeatableSpec
+
+repeatable 中传入一个 `DurationBasedAnimationSpec`，例如一个 `TweenSpec`
+
+```kotlin
+LaunchedEffect(big) {  
+    anim.animateTo(size, repeatable(3, tween()))  
+}
+```
+
+函数定义：
+
+```kotlin
+@Stable  
+fun <T> repeatable(  
+    iterations: Int,  
+    animation: DurationBasedAnimationSpec<T>,  
+    repeatMode: RepeatMode = RepeatMode.Restart,  
+    initialStartOffset: StartOffset = StartOffset(0)  
+)
+```
+
+- `iterations`: 
