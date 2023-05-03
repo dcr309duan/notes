@@ -72,3 +72,34 @@ anim.animateTo(size, snap(1000))
 # KeyframesSpec
 
 
+```kotlin
+anim.animateTo(size, KeyframesSpec(KeyframesSpec.KeyframesSpecConfig<Dp>().apply {  
+    // 指定关键帧，即在哪个时间点的变量值是多少？  
+}))
+// 简便写法：  
+anim.animateTo(size, keyframes {  
+  
+})
+```
+
+## `at` infix 函数
+
+`at` 是一个 infix 函数，其定义如下：
+
+```kotlin
+infix fun T.at(/*@IntRange(from = 0)*/ timeStamp: Int): KeyframeEntity<T> {  
+    return KeyframeEntity(this).also {  
+        keyframes[timeStamp] = it  
+    }  
+}
+```
+
+所以定义关键帧的时候可以这样写：
+
+```kotlin  
+anim.animateTo(size, keyframes {  
+    114.dp at 150  
+})
+```
+
+表示在 150 ms 的一个关键帧为 114.dp
