@@ -16,3 +16,25 @@ AnimationSpec 继承树：
 ![[Pasted image 20230503152052.png]]
 ![[Pasted image 20230503152109.png]]
 # TweenSpec
+
+```kotlin
+@Immutable  
+class TweenSpec<T>(  
+    val durationMillis: Int = DefaultDurationMillis,  
+    val delay: Int = 0,  
+    val easing: Easing = FastOutSlowInEasing  
+)
+```
+
+1. durationMillis: 延迟时间
+2. delay: 延迟启动时间，默认为 0
+3. easing: 缓动方式
+
+## easing
+
+有四种缓动方式，默认为 `FastOutSlowInEasing`
+![[Pasted image 20230503153808.png]]
+- FastOutSlowInEasing
+- LinearOutSlowInEasing
+- FastOutLinearInEasing
+- LinearEasing
