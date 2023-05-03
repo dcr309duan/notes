@@ -35,3 +35,23 @@ Animatable 动画的计算，是异步进行计算的，需要在协程中进行
 
 在 Compose 中使用协程，可以使用 `LaunchedEffect`
 
+LaunchedEffect 会传入 key，当 key 的值变化的时候，才会重新执行一次协程，如果我们希望协程只执行一次，我们可以传入一个 `Unit`
+
+### 使用 `animateTo` 去更新变量的值
+
+
+
+```kotlin
+val anim = remember {  
+    Animatable(48.dp, Dp.VectorConverter)  
+}  
+LaunchedEffect(Unit) {  
+    delay(2000)  
+    anim.animateTo(96.dp)  
+}  
+Box(  
+    Modifier  
+        .size(anim.value)  
+        .background(Color.Green)  
+        .clickable { big = !big }) {}
+```
