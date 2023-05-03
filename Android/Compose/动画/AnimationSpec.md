@@ -98,8 +98,12 @@ infix fun T.at(/*@IntRange(from = 0)*/ timeStamp: Int): KeyframeEntity<T> {
 
 ```kotlin  
 anim.animateTo(size, keyframes {  
-    114.dp at 150  
+    durationMillis = 1000  
+    delayMillis = 500  
+    114.dp at 150 with FastOutLinearInEasing  
 })
 ```
 
-表示在 150 ms 的一个关键帧为 114.dp
+1. 表示在 150 ms 的一个关键帧为 114.dp
+2. `with` 函数可以指定速度曲线（指定的是后面一段动画的速度曲线，即 150ms - 1000 ms）
+
