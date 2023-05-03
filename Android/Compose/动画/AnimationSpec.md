@@ -145,7 +145,7 @@ anim.animateTo(
 )
 ```
 
-## RepeatableSpec
+# RepeatableSpec
 
 repeatable 中传入一个 `DurationBasedAnimationSpec`，例如一个 `TweenSpec`
 
@@ -173,3 +173,9 @@ fun <T> repeatable(
 - `initialStartOffset`: 启动偏移，有两种模式：`Delay` 和 `FastForward`
 	- Delay: 就是对动画做一个延时
 	- FastForward: 快进到指定的时间点，开始执行动画
+
+## InfiniteRepeatableSpec
+
+功能是无限重复的动画，API 基本上和 RepeatableSpec 一致，不需要设置迭代次数，为无限循环。
+
+无限循环动画，在协程退出的时候才会停止执行
