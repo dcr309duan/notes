@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Android/Compose/状态订阅和自动更新/derivedStateOf 和 remember 的区别.md",
+                "file": "Android/Compose/动画/Animatable.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.5
+    "width": 222.5,
+    "collapsed": true
   },
   "right": {
     "id": "37a6b38c6e378df2",
@@ -122,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Android/Compose/状态订阅和自动更新/derivedStateOf 和 remember 的区别.md",
+                "file": "Android/Compose/动画/Animatable.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Android/Compose/状态订阅和自动更新/derivedStateOf 和 remember 的区别.md",
+                "file": "Android/Compose/动画/Animatable.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Android/Compose/状态订阅和自动更新/derivedStateOf 和 remember 的区别.md"
+                "file": "Android/Compose/动画/Animatable.md"
               }
             }
           },
@@ -196,6 +197,7 @@
   },
   "active": "fc19be561d691d7e",
   "lastOpenFiles": [
+    "Android/Compose/状态订阅和自动更新/derivedStateOf 和 remember 的区别.md",
     "Android/Compose/状态订阅和自动更新/CompositionLocal.md",
     "Android/Compose/动画/AnimateXXX.md",
     "Android/Compose/动画/Animatable.md",
@@ -211,7 +213,6 @@
     "Android/Compose/状态订阅和自动更新/重组作用域和 remember.md",
     "Android/Compose/状态订阅和自动更新/重组的性能风险和智能优化、@Stable.md",
     "Android/Compose/状态订阅和自动更新/无状态、状态提升和单向数据流.md",
-    "Android/Compose/状态订阅和自动更新/derivedStateOf 和 remember 的区别.md",
     "Android/Kotlin/infix 中缀函数.md",
     "Android/Kotlin",
     "ChatGPT_MD/templates",
