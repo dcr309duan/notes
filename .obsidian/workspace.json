@@ -106,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.5,
-    "collapsed": true
+    "width": 222.5
   },
   "right": {
     "id": "37a6b38c6e378df2",
@@ -197,9 +196,11 @@
   },
   "active": "fc19be561d691d7e",
   "lastOpenFiles": [
+    "Final Cut Pro/学习资源.md",
+    "Android/Compose/动画/Animatable.md",
+    "Final Cut Pro",
     "Android/Compose/动画/attachments/Pasted image 20230503130656.png",
     "Android/Compose/动画/AnimateXXX.md",
-    "Android/Compose/动画/Animatable.md",
     "Android/Compose/动画/attachments/Pasted image 20230424224942.png",
     "Android/Compose/动画/attachments",
     "Android/Compose/状态订阅和自动更新/CompositionLocal.md",
@@ -232,13 +233,11 @@
     "Android/Compose/状态订阅和自动更新/attachments/Pasted image 20230416193207.png",
     "Android/Compose/状态订阅和自动更新/attachments/Pasted image 20230416165955.png",
     "Android/Compose/状态订阅和自动更新/attachments/device-2023-04-16-165510 1.mp4",
-    "Android/Compose/状态订阅和自动更新/attachments/device-2023-04-16-165510.mp4",
     "2023-04-16.md",
     "README.md",
     "效率/obsidian/attachments/Pasted image 20230415215502.png",
     "效率/obsidian/attachments/Pasted image 20230415215425.png",
     "().md",
-    "效率/obsidian/attachments/image-20230415194648194.png",
     "未命名.canvas"
   ]
 }
