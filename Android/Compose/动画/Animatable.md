@@ -1,5 +1,8 @@
 AnimateAsState 内部，最终使用的就是 `Animatable`
 ![[Pasted image 20230503130656.png]]
+# Animatable 使用
+
+## 创建 Animatable
 
 Animatable 的构造函数如下：
 
@@ -23,3 +26,10 @@ Animatable 是有泛型参数的：
 ```kotlin
 Animatable(8.dp, Dp.VectorConverter)
 ```
+
+## 开启动画
+
+### 协程使用
+
+Animatable 动画的计算，是异步进行计算的，需要在协程中进行计算使用。
+
