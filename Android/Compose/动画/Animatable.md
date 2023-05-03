@@ -33,3 +33,5 @@ Animatable(8.dp, Dp.VectorConverter)
 
 Animatable 动画的计算，是异步进行计算的，需要在协程中进行计算使用。
 
+在 Compose 中使用协程，可以使用 `LaunchedEffect`
+
