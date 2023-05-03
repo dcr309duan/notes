@@ -21,3 +21,8 @@
 
 ### splineBasedDecay 和 rememberSplineBasedDecay 的区别
 
+- splineBasedDecay 会传递一个参数，为像素密度（density）
+- rememberSplineBasedDecay 不需要传递这个参数
+
+density 的作用是，在计算惯性滑动时，会根据像素密度进行计算。
+
