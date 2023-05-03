@@ -9,4 +9,10 @@ animateTo 默认使用了一个 SpringSpec：
 anim.animateTo(size, spring(Spring.DampingRatioMediumBouncy))
 ```
 
+AnimationSpec 继承树：
+![[Pasted image 20230503151950.png]]
+![[Pasted image 20230503152024.png]]
+![[Pasted image 20230503152039.png]]
+![[Pasted image 20230503152052.png]]
+![[Pasted image 20230503152109.png]]
 # TweenSpec
