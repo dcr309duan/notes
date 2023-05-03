@@ -170,4 +170,6 @@ fun <T> repeatable(
 - `iterations`: 重复次数
 - `animation`: 动画
 - `repeatMode`: 有两种模式，`Restart` or `Reverse`
-- `initialStartOffset`: 
+- `initialStartOffset`: 启动偏移，有两种模式：`Delay` 和 `FastForward`
+	- Delay: 就是对动画做一个延时
+	- FastForward: 快进到指定的时间点，开始执行动画
