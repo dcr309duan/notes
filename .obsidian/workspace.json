@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a68850bb62ef4f91",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Android/Compose/动画/消散型动画 animateDecay().md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Android/Compose/动画/AnimationSpec.md",
+                "file": "Android/Compose/动画/消散型动画 animateDecay().md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Android/Compose/动画/AnimationSpec.md",
+                "file": "Android/Compose/动画/消散型动画 animateDecay().md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Android/Compose/动画/AnimationSpec.md"
+                "file": "Android/Compose/动画/消散型动画 animateDecay().md"
               }
             }
           },
@@ -158,8 +171,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2b34947d22f38527",
+  "active": "a68850bb62ef4f91",
   "lastOpenFiles": [
+    "Android/Compose/动画/AnimationSpec.md",
+    "Android/Compose/动画/消散型动画 animateDecay().md",
     "Android/Compose/动画/attachments/Pasted image 20230503181758.png",
     "Android/Compose/动画/attachments/Pasted image 20230503153808.png",
     "Android/Compose/动画/attachments/Pasted image 20230503152109.png",
@@ -170,14 +185,12 @@
     "Android/Compose/动画/attachments/Pasted image 20230503151328.png",
     "Android/Compose/动画/attachments/Pasted image 20230503151227.png",
     "Android/Compose/动画/Animatable.md",
-    "Android/Compose/动画/AnimationSpec.md",
     "Android/Compose/状态订阅和自动更新/derivedStateOf 和 remember 的区别.md",
     "Android/Compose/状态订阅和自动更新/CompositionLocal.md",
     "Android/Compose/动画/AnimateXXX.md",
     "Final Cut Pro/学习资源.md",
     "Final Cut Pro",
     "Android/Compose/动画/attachments/Pasted image 20230503130656.png",
-    "Android/Compose/动画/attachments/Pasted image 20230424224942.png",
     "Android/Compose/动画/attachments",
     "ChatGPT_MD/chats/20230422222745.md",
     "Android/Compose/状态订阅和自动更新/状态机制的背后.md",
