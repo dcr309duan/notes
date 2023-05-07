@@ -171,3 +171,37 @@ ComposedModifier 实现了 `Modifier.Element` 接口
 
 可以使用 `Modifier.composed()` 函数来使用 ComposedModifier。
 
+Layout 中，会调用 `materialize` 函数：
+
+```kotlin
+fun Composer.materialize(modifier: Modifier): Modifier {  
+    if (modifier.all { it !is ComposedModifier }) {  
+        return modifier  
+    }  
+  
+    // This is a fake composable function that invokes the compose runtime directly so that it  
+    // can call the element factory functions from the non-@Composable lambda of Modifier.foldIn.    // It would be more efficient to redefine the Modifier type hierarchy such that the fold    // operations could be inlined or otherwise made cheaper, which could make this unnecessary.  
+    // Random number for fake group key. Chosen by fair die roll.    startReplaceableGroup(0x48ae8da7)  
+  
+    val result = modifier.foldIn<Modifier>(Modifier) { acc, element ->  
+        acc.then(  
+            if (element is ComposedModifier) {  
+                @Suppress("UNCHECKED_CAST")  
+                val factory = element.factory as Modifier.(Composer, Int) -> Modifier  
+                val composedMod = factory(Modifier, this, 0)  
+                materialize(composedMod)  
+            } else {  
+                element  
+            }  
+        )    }  
+  
+    endReplaceableGroup()  
+    return result  
+}
+```
+
+在这里会使用 `foldIn` 函数对所有的 Modifier 进行遍历，遍历的操作是又使用了 `then` 函数进行了重新连接。
+
+如果是 `ComposedModifier`，则会调用 factory 工厂方法，创建对应的 Modifier，并执行 `materialize` 方法。
+
+如果不是，则直接返回 element。
