@@ -120,4 +120,38 @@ Element 的 `any` 和 `all` 的实现，是真实调用了 `predicate` 方法，
 
 ### `foldIn`, `foldOut`, `any` 和 `all`
 
-理解了 `Element` 接口之后，我们再看 `Combined`
+理解了 `Element` 接口之后，我们再看 `CombinedModifier`。
+
+#### foldIn 和 foldOut
+
+```kotlin
+override fun <R> foldIn(initial: R, operation: (R, Modifier.Element) -> R): R =  
+        inner.foldIn(outer.foldIn(initial, operation), operation)
+override fun <R> foldOut(initial: R, operation: (Modifier.Element, R) -> R): R =  
+        outer.foldOut(inner.foldOut(initial, operation), operation)
+```
+
+foldIn 的含义，是给出一个初始的值 `initial`，给出一个算法 `operation`，按照从外到内的顺序，依次进行执行，返回最终的计算结果。先加入的先应用，后加入的后应用。
+
+foldOut 的执行顺序和 foldIn 相反，是按照从内到外的顺序依次进行执行，返回最终的计算结果。后加入的后应用，先加入的先应用。
+
+例如：
+
+```kotlin
+modifier.a().b().c()
+```
+
+* foldIn 的顺序为，a() -> b() -> c()
+* foldOut 的顺序为, c() -> b() -> a()
+
+#### any 和 all
+
+any 和 all 比较简单，会分别执行 outer 和 inner 的 any 和 all 方法，分别进行或运算和与运算。
+
+```kotlin
+override fun any(predicate: (Modifier.Element) -> Boolean): Boolean =  
+        outer.any(predicate) || inner.any(predicate)  
+  
+override fun all(predicate: (Modifier.Element) -> Boolean): Boolean =  
+        outer.all(predicate) && inner.all(predicate)  
+```
