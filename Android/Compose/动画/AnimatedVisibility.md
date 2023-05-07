@@ -35,3 +35,7 @@ fun slideIn(
 ## expandIn
 
 逐渐扩展的动画
+
+- expendFrom: 从什么地方开始扩展
+- initialSize: 初始的大小
+- 
