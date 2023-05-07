@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Android/Compose/动画/Transition 的扩展.md",
+                "file": "Android/Compose/Modifier/Modifier.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.5
+    "width": 222.5,
+    "collapsed": true
   },
   "right": {
     "id": "37a6b38c6e378df2",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Android/Compose/动画/Transition 的扩展.md",
+                "file": "Android/Compose/Modifier/Modifier.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Android/Compose/动画/Transition 的扩展.md",
+                "file": "Android/Compose/Modifier/Modifier.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Android/Compose/动画/Transition 的扩展.md"
+                "file": "Android/Compose/Modifier/Modifier.md"
               }
             }
           },
@@ -167,8 +168,10 @@
   },
   "active": "06062afa3c457c6c",
   "lastOpenFiles": [
-    "Android/Compose/动画/Crossfade.md",
     "Android/Compose/动画/Transition 的扩展.md",
+    "Android/Compose/Modifier/Modifier.md",
+    "Android/Compose/Modifier",
+    "Android/Compose/动画/Crossfade.md",
     "README.md",
     "学习计划.md",
     "Spring",
@@ -210,9 +213,7 @@
     "ChatGPT_MD",
     "Ava - Getting Started.md",
     "效率/bare git repo - 配置文件管理.md",
-    "效率/vim/LunarVim.md",
     "效率/vim",
-    "效率",
     "未命名.canvas"
   ]
 }
