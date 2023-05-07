@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Android/Compose/动画/Transition - 多属性的状态切换.md",
+                "file": "Android/Compose/动画/AnimatedVisibility.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Android/Compose/动画/Transition - 多属性的状态切换.md",
+                "file": "Android/Compose/动画/AnimatedVisibility.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Android/Compose/动画/Transition - 多属性的状态切换.md",
+                "file": "Android/Compose/动画/AnimatedVisibility.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Android/Compose/动画/Transition - 多属性的状态切换.md"
+                "file": "Android/Compose/动画/AnimatedVisibility.md"
               }
             }
           },
@@ -168,9 +168,10 @@
   },
   "active": "06062afa3c457c6c",
   "lastOpenFiles": [
+    "Android/Compose/动画/Transition - 多属性的状态切换.md",
+    "Android/Compose/动画/AnimatedVisibility.md",
     "Android/Compose/动画/attachments/Pasted image 20230506215620.png",
     "Android/Compose/动画/动画终止.md",
-    "Android/Compose/动画/Transition - 多属性的状态切换.md",
     "Android/Compose/动画/Block 参数 - 监听每一帧.md",
     "Android/Compose/动画/消散型动画 animateDecay().md",
     "Android/Compose/动画/AnimationSpec.md",
@@ -187,7 +188,6 @@
     "Android/Compose/动画/attachments/Pasted image 20230503152024.png",
     "Android/Compose/动画/attachments/Pasted image 20230503151950.png",
     "Android/Compose/动画/attachments/Pasted image 20230503151328.png",
-    "Android/Compose/动画/attachments/Pasted image 20230503151227.png",
     "Android/Compose/状态订阅和自动更新/derivedStateOf 和 remember 的区别.md",
     "Android/Compose/状态订阅和自动更新/CompositionLocal.md",
     "Final Cut Pro/学习资源.md",
