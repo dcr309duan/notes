@@ -32,4 +32,6 @@ fun slideIn(
 - lambda 的参数为组件自己的 size
 - 例如，如果我们想，让组件从左上角滑入，可以这样写：`slideIn { IntOffset(-it.width, -it.height) }`
 
-## exp
+## expandIn
+
+逐渐扩展的动画

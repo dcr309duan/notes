@@ -11,11 +11,9 @@
             "id": "06062afa3c457c6c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "Android/Compose/动画/AnimatedVisibility.md",
-                "mode": "source",
-                "source": false
+                "file": "学习计划.md"
               }
             }
           }
@@ -77,8 +75,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.5,
-    "collapsed": true
+    "width": 222.5
   },
   "right": {
     "id": "37a6b38c6e378df2",
@@ -94,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Android/Compose/动画/AnimatedVisibility.md",
+                "file": "学习计划.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Android/Compose/动画/AnimatedVisibility.md",
+                "file": "学习计划.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Android/Compose/动画/AnimatedVisibility.md"
+                "file": "学习计划.md"
               }
             }
           },
@@ -168,8 +165,10 @@
   },
   "active": "06062afa3c457c6c",
   "lastOpenFiles": [
-    "Android/Compose/动画/Transition - 多属性的状态切换.md",
     "Android/Compose/动画/AnimatedVisibility.md",
+    "学习计划.md",
+    "Spring",
+    "Android/Compose/动画/Transition - 多属性的状态切换.md",
     "Android/Compose/动画/attachments/Pasted image 20230506215620.png",
     "Android/Compose/动画/动画终止.md",
     "Android/Compose/动画/Block 参数 - 监听每一帧.md",
@@ -212,8 +211,6 @@
     "效率",
     "效率/obsidian/obsidian 配置 GitHub 同步.md",
     "效率/obsidian/obsidian 配置汇总.md",
-    "AI 学习/AutoGPT/Android Programmer.md",
-    "AI 学习/AutoGPT",
     "未命名.canvas"
   ]
 }
