@@ -72,3 +72,5 @@ operator fun plus(enter: EnterTransition): EnterTransition {
 }
 ```
 
+## Transition + AnimatedVisibility
+
