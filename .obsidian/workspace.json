@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Android/Compose/动画/AnimatedVisibility.md",
+                "file": "Android/Compose/动画/Crossfade.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Android/Compose/动画/AnimatedVisibility.md",
+                "file": "Android/Compose/动画/Crossfade.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Android/Compose/动画/AnimatedVisibility.md",
+                "file": "Android/Compose/动画/Crossfade.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Android/Compose/动画/AnimatedVisibility.md"
+                "file": "Android/Compose/动画/Crossfade.md"
               }
             }
           },
@@ -168,9 +168,10 @@
   },
   "active": "06062afa3c457c6c",
   "lastOpenFiles": [
+    "Android/Compose/动画/AnimatedVisibility.md",
+    "Android/Compose/动画/Crossfade.md",
     "README.md",
     "学习计划.md",
-    "Android/Compose/动画/AnimatedVisibility.md",
     "Spring",
     "Android/Compose/动画/Transition - 多属性的状态切换.md",
     "Android/Compose/动画/attachments/Pasted image 20230506215620.png",
@@ -213,7 +214,6 @@
     "效率/vim/LunarVim.md",
     "效率/vim",
     "效率",
-    "效率/obsidian/obsidian 配置 GitHub 同步.md",
     "未命名.canvas"
   ]
 }
