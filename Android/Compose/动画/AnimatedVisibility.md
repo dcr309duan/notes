@@ -14,6 +14,22 @@ Column {
 }
 ```
 
+TransitionData 有四种动画方式：
+
+- fade
+- slide
+- changeSize
+- scale
+
+```kotlin
+@Immutable  
+internal data class TransitionData(  
+    val fade: Fade? = null,  
+    val slide: Slide? = null,  
+    val changeSize: ChangeSize? = null,  
+    val scale: Scale? = null  
+)
+```
 
 ## slideIn
 
@@ -38,4 +54,21 @@ fun slideIn(
 
 - expendFrom: 从什么地方开始扩展
 - initialSize: 初始的大小
-- 
+
+
+## EnterTransition 的 plus 函数
+
+```kotlin
+@Stable  
+operator fun plus(enter: EnterTransition): EnterTransition {  
+    return EnterTransitionImpl(  
+        TransitionData(  
+            fade = data.fade ?: enter.data.fade,  
+            slide = data.slide ?: enter.data.slide,  
+            changeSize = data.changeSize ?: enter.data.changeSize,  
+            scale = data.scale ?: enter.data.scale  
+        )  
+    )
+}
+```
+
