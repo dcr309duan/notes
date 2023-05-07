@@ -155,3 +155,7 @@ override fun any(predicate: (Modifier.Element) -> Boolean): Boolean =
 override fun all(predicate: (Modifier.Element) -> Boolean): Boolean =  
         outer.all(predicate) && inner.all(predicate)  
 ```
+
+## ComposedModifier
+
+ 
