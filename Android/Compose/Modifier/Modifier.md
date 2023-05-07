@@ -93,6 +93,31 @@ class CombinedModifier(
 
 CombinedModifier 实现了 `Modifier` 接口。
 
-这里就需要理解一下 `foldIn`, `foldOut`, `any` 和 `all` 这四个方法的含义了。
+这里就需要理解一下 `foldIn`, `foldOut`, `any` 和 `all` 这四个方法的含义了，这几个函数都涉及到 `Element` 的接口，需要先介绍一下。
 
-### foldIn & foldOut
+### Element 接口
+
+```kotlin
+@JvmDefaultWithCompatibility  
+interface Element : Modifier {  
+    override fun <R> foldIn(initial: R, operation: (R, Element) -> R): R =  
+        operation(initial, this)  
+  
+    override fun <R> foldOut(initial: R, operation: (Element, R) -> R): R =  
+        operation(this, initial)  
+  
+    override fun any(predicate: (Element) -> Boolean): Boolean = predicate(this)  
+  
+    override fun all(predicate: (Element) -> Boolean): Boolean = predicate(this)  
+}
+```
+
+Element 也是继承了 Modifier 接口，实现了 `foldIn`, `foldOut`, `any` 和 `all` 这四个接口。
+
+Element 的 `foldIn` 和 `foldOut` 的实现，是真实调用了 `predicate` 方法，并且将返回值返回。
+
+Element 的 `any` 和 `all` 的实现，是真实调用了 `predicate` 方法，并且将返回值返回。
+
+### `foldIn`, `foldOut`, `any` 和 `all`
+
+理解了 `Element` 接口之后，我们再看 `Combined`
