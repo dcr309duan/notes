@@ -158,4 +158,16 @@ override fun all(predicate: (Modifier.Element) -> Boolean): Boolean =
 
 ## ComposedModifier
 
- 
+```kotlin
+private open class ComposedModifier(  
+    inspectorInfo: InspectorInfo.() -> Unit,  
+    val factory: @Composable Modifier.() -> Modifier  
+) : Modifier.Element, InspectorValueInfo(inspectorInfo)
+```
+
+ComposedModifier 实现了 `Modifier.Element` 接口
+
+他的作用是把一个 Modifier 包在工厂方法（factory）中。
+
+可以使用 `Modifier.composed()` 函数来使用 ComposedModifier。
+

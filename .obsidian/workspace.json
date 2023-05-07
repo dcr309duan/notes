@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.5,
-    "collapsed": true
+    "width": 222.5
   },
   "right": {
     "id": "37a6b38c6e378df2",
@@ -166,8 +165,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "06062afa3c457c6c",
+  "active": "2b34947d22f38527",
   "lastOpenFiles": [
+    "Spring/SpringBoot",
     "Android/Compose/Modifier/Modifier.md",
     "Android/Compose/动画/Transition 的扩展.md",
     "Android/Compose/Modifier",
@@ -212,7 +212,6 @@
     "ChatGPT_MD/chats",
     "ChatGPT_MD",
     "Ava - Getting Started.md",
-    "效率/bare git repo - 配置文件管理.md",
     "效率/vim",
     "未命名.canvas"
   ]
