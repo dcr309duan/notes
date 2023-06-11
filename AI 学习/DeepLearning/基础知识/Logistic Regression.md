@@ -19,8 +19,16 @@ Input:
 
 # Logistic Regression
 
+## Model Defination: 
+
 - Parameters: $\boldsymbol{w} \in \mathbb{R}^{n_{x}}, b \in \mathbb{R}$
 - Output: $\hat{y} = \sigma(\boldsymbol{w}^T\boldsymbol{x} + b)$
 - $\sigma$: [[Sigmoid function]]
 
-![[output.png]]
+## Cost Function
+
+Given $\{(x^{(1), y^{(1)}}), \dots, (x^{(m)}, y^{(m)})\}$, want $\hat{y}^{(i)} \approx y^{(i)}$
+
+Loss (error) function: 
+
+$L(\hat{y}, y) = \frac{1}{2}(\hat{y})^{2}$
