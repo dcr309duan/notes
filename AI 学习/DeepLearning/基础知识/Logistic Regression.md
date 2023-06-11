@@ -29,7 +29,7 @@ Input:
 
 Given $\{(x^{(1), y^{(1)}}), \dots, (x^{(m)}, y^{(m)})\}$, want $\hat{y}^{(i)} \approx y^{(i)}$
 
-Loss (error) function: 
+### Loss (error) function: 
 
 如果这样定义 loss function，会导致结果是非凸的，导致不好求解：
 $$
@@ -45,4 +45,15 @@ $$
 - $y$ 是通过 sigmoid function 计算得来的，所以其值在 $[0, 1]$ 区间内
 - if $y = 1$: $L(\hat{y}, y) = -\log{\hat{y}}$, 这种情况下，我们期望 $\hat{y}$ 越大越好
 - if $y = 0$: $L(\hat{y}, y) = -\log{(1 - \hat{y})}$，在这种情况下，我们期望 $\hat{y}$ 越小越好
-- 
+
+### Cost Function
+
+Cost Function 是在所有的训练集上的 Loss Function 的和：
+$$
+J(w, b) = \frac{1}{m}\sum_{i = 1}^m\left( 
+L(\hat{y}^{(i)}, y^{(i)})
+\right)
+
+= -\frac{1}{m}\sum_{i=1}^my^{(i)}\log{\hat{y}^{(i)}} + 
+$$
+
