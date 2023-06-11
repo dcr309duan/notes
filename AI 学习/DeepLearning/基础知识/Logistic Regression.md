@@ -64,3 +64,4 @@ Repeat \{
 w := w - \alpha\frac{dJ(w)}{dw}
 \}
 $$
+
