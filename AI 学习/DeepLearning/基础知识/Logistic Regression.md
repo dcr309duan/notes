@@ -23,3 +23,4 @@ Input:
 - Output: $\hat{y} = \sigma(\boldsymbol{w}^T\boldsymbol{x} + b)$
 - $\sigma$: [[Sigmoid function]]
 
+![[output.png]]
