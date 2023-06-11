@@ -53,7 +53,14 @@ $$
 J(w, b) = \frac{1}{m}\sum_{i = 1}^m\left( 
 L(\hat{y}^{(i)}, y^{(i)})
 \right)
-
-= -\frac{1}{m}\sum_{i=1}^my^{(i)}\log{\hat{y}^{(i)}} + 
 $$
 
+## Gradient Descent
+
+![[Pasted image 20230611225451.png]]
+
+$$
+Repeat \{
+w := w - \alpha\frac{dJ(w)}{dw}
+\}
+$$
