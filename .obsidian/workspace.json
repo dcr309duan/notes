@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI 学习/DeepLearning/ReLU function.md",
+                "file": "AI 学习/DeepLearning/基础知识/Regulation.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI 学习/DeepLearning/ReLU function.md",
+                "file": "AI 学习/DeepLearning/基础知识/Regulation.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI 学习/DeepLearning/ReLU function.md",
+                "file": "AI 学习/DeepLearning/基础知识/Regulation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI 学习/DeepLearning/ReLU function.md"
+                "file": "AI 学习/DeepLearning/基础知识/Regulation.md"
               }
             }
           },
@@ -179,6 +179,8 @@
   },
   "active": "f2ae9cd648e65468",
   "lastOpenFiles": [
+    "AI 学习/DeepLearning/ReLU function.md",
+    "AI 学习/DeepLearning/基础知识/Regulation.md",
     "AI 学习/DeepLearning/基础知识/attachments/Pasted image 20230611225451.png",
     "AI 学习/DeepLearning/Sigmoid function.md",
     "AI 学习/DeepLearning/基础知识/Logistic Regression.md",
@@ -188,7 +190,6 @@
     "AI 学习/DeepLearning/基础知识/Untitled.md",
     "AI 学习/DeepLearning/基础知识/attachments/Pasted image 20230611205128.png",
     "AI 学习/DeepLearning/基础知识/attachments",
-    "AI 学习/DeepLearning/ReLU function.md",
     "AI 学习/DeepLearning/基础知识",
     "Android/Compose/Modifier/Modifier.md",
     "AI 学习/DeepLearning",
@@ -213,7 +214,6 @@
     "Android/Compose/动画/attachments/Pasted image 20230503181758.png",
     "Android/Compose/动画/attachments/Pasted image 20230503153808.png",
     "Android/Compose/动画/attachments/Pasted image 20230503152109.png",
-    "Android/Compose/动画/attachments/Pasted image 20230503152052.png",
     "Android/Compose/状态订阅和自动更新/derivedStateOf 和 remember 的区别.md",
     "Android/Compose/状态订阅和自动更新/CompositionLocal.md",
     "Final Cut Pro/学习资源.md",
