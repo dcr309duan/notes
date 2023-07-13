@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI 学习/DeepLearning/基础知识/Regulation.md",
+                "file": "前端/走进前端工程师的世界/互联网公司角色.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI 学习/DeepLearning/基础知识/Regulation.md",
+                "file": "前端/走进前端工程师的世界/互联网公司角色.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI 学习/DeepLearning/基础知识/Regulation.md",
+                "file": "前端/走进前端工程师的世界/互联网公司角色.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI 学习/DeepLearning/基础知识/Regulation.md"
+                "file": "前端/走进前端工程师的世界/互联网公司角色.md"
               }
             }
           },
@@ -179,8 +179,11 @@
   },
   "active": "f2ae9cd648e65468",
   "lastOpenFiles": [
-    "AI 学习/DeepLearning/ReLU function.md",
     "AI 学习/DeepLearning/基础知识/Regulation.md",
+    "前端/走进前端工程师的世界/互联网公司角色.md",
+    "前端/走进前端工程师的世界",
+    "前端",
+    "AI 学习/DeepLearning/ReLU function.md",
     "AI 学习/DeepLearning/基础知识/attachments/Pasted image 20230611225451.png",
     "AI 学习/DeepLearning/Sigmoid function.md",
     "AI 学习/DeepLearning/基础知识/Logistic Regression.md",
@@ -218,13 +221,10 @@
     "Android/Compose/状态订阅和自动更新/CompositionLocal.md",
     "Final Cut Pro/学习资源.md",
     "Final Cut Pro",
-    "Android/Compose/动画/attachments",
     "ChatGPT_MD/chats/20230422222745.md",
     "Android/Compose/状态订阅和自动更新/状态机制的背后.md",
     "Android/Compose/状态订阅和自动更新/状态订阅与自动更新.md",
     "Android/Compose/状态订阅和自动更新/自定义类型.md",
-    "Android/Compose/状态订阅和自动更新/重组作用域和 remember.md",
-    "Android/Kotlin",
     "未命名.canvas"
   ]
 }
