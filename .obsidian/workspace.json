@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI 学习/DeepLearning/基础知识/Logistic Regression.md",
+                "file": "前端/基础学习/css/css 的引入.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/基础学习/css/css 的引入.md",
+                "file": "前端/基础学习/css/css 注释.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.5
+    "width": 222.5,
+    "collapsed": true
   },
   "right": {
     "id": "37a6b38c6e378df2",
@@ -177,10 +177,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f2ae9cd648e65468",
+  "active": "3f2dcd6fae22ed99",
   "lastOpenFiles": [
-    "前端/走进前端工程师的世界/互联网公司角色.md",
+    "AI 学习/DeepLearning/基础知识/Logistic Regression.md",
+    "前端/基础学习/css/css 注释.md",
     "前端/基础学习/css/css 的引入.md",
+    "前端/走进前端工程师的世界/互联网公司角色.md",
     "前端/基础学习/css",
     "前端/基础学习/常用网站.md",
     "前端/基础学习/html/attachments/Pasted image 20230716113816.png",
@@ -200,7 +202,6 @@
     "AI 学习/DeepLearning/ReLU function.md",
     "AI 学习/DeepLearning/基础知识/attachments/Pasted image 20230611225451.png",
     "AI 学习/DeepLearning/Sigmoid function.md",
-    "AI 学习/DeepLearning/基础知识/Logistic Regression.md",
     "AI 学习/DeepLearning/基础知识/attachments/sigmoid.png",
     "AI 学习/DeepLearning/基础知识/attachments/output.png",
     "AI 学习/DeepLearning/基础知识/attachments/Pasted image 20230611221433.png",
@@ -223,7 +224,6 @@
     "Android/Compose/动画/AnimationSpec.md",
     "Android/Compose/动画/AnimateXXX.md",
     "Android/Android 基础能力的实现/README.md",
-    "Android/Compose/动画/Animatable.md",
     "Android/Compose/动画/attachments/Pasted image 20230503213530.png",
     "未命名.canvas"
   ]
