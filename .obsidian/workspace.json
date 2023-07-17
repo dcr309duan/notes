@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/走进前端工程师的世界/互联网公司角色.md",
+                "file": "前端/基础学习/css/css 的引入.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/走进前端工程师的世界/互联网公司角色.md",
+                "file": "前端/基础学习/css/css 的引入.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端/走进前端工程师的世界/互联网公司角色.md",
+                "file": "前端/基础学习/css/css 的引入.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/走进前端工程师的世界/互联网公司角色.md"
+                "file": "前端/基础学习/css/css 的引入.md"
               }
             }
           },
@@ -179,8 +179,22 @@
   },
   "active": "f2ae9cd648e65468",
   "lastOpenFiles": [
-    "AI 学习/DeepLearning/基础知识/Regulation.md",
     "前端/走进前端工程师的世界/互联网公司角色.md",
+    "前端/基础学习/css/css 的引入.md",
+    "前端/基础学习/css",
+    "前端/基础学习/常用网站.md",
+    "前端/基础学习/html/attachments/Pasted image 20230716113816.png",
+    "前端/基础学习/html/attachments/Pasted image 20230716112921.png",
+    "前端/基础学习/html/attachments/Pasted image 20230716112920.png",
+    "前端/基础学习/html/更多标签.md",
+    "前端/基础学习/html/class 和 id.md",
+    "前端/基础学习/html/attachments",
+    "前端/基础学习/html/HTML 重要标签.md",
+    "前端/基础学习/html/GetStarted HTML.md",
+    "前端/基础学习/html/BEM 命名.md",
+    "前端/基础学习/html",
+    "前端/基础学习",
+    "AI 学习/DeepLearning/基础知识/Regulation.md",
     "前端/走进前端工程师的世界",
     "前端",
     "AI 学习/DeepLearning/ReLU function.md",
@@ -198,11 +212,9 @@
     "AI 学习/DeepLearning",
     "Spring/SpringBoot",
     "Android/Compose/动画/Transition 的扩展.md",
-    "Android/Compose/Modifier",
     "Android/Compose/动画/Crossfade.md",
     "README.md",
     "学习计划.md",
-    "Spring",
     "Android/Compose/动画/Transition - 多属性的状态切换.md",
     "Android/Compose/动画/attachments/Pasted image 20230506215620.png",
     "Android/Compose/动画/动画终止.md",
@@ -213,18 +225,6 @@
     "Android/Android 基础能力的实现/README.md",
     "Android/Compose/动画/Animatable.md",
     "Android/Compose/动画/attachments/Pasted image 20230503213530.png",
-    "Android/Android 基础能力的实现",
-    "Android/Compose/动画/attachments/Pasted image 20230503181758.png",
-    "Android/Compose/动画/attachments/Pasted image 20230503153808.png",
-    "Android/Compose/动画/attachments/Pasted image 20230503152109.png",
-    "Android/Compose/状态订阅和自动更新/derivedStateOf 和 remember 的区别.md",
-    "Android/Compose/状态订阅和自动更新/CompositionLocal.md",
-    "Final Cut Pro/学习资源.md",
-    "Final Cut Pro",
-    "ChatGPT_MD/chats/20230422222745.md",
-    "Android/Compose/状态订阅和自动更新/状态机制的背后.md",
-    "Android/Compose/状态订阅和自动更新/状态订阅与自动更新.md",
-    "Android/Compose/状态订阅和自动更新/自定义类型.md",
     "未命名.canvas"
   ]
 }
