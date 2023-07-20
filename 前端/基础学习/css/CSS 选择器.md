@@ -49,6 +49,45 @@ a {
 a:hover {  
 	color: red;  
 }
+```
 
+# 伪元素选择器
 
+使用 `::` 选择，给元素内部添加内容，`::before` 在前面添加，`::after` 在后面添加。
+
+```css
+.icon-check::before {
+	content: '✅';
+}
+<span class="icon-check">你好</span>
+```
+
+# 属性选择器
+
+`[attr]` 选择包含 attr 属性的所有元素
+`[attr=value]` 仅选择 attr 属性被赋值为 val 的所有元素
+
+```css
+[disabled] {
+
+}
+
+[title="mlya"] {
+
+}
+```
+
+# 通配选择器
+
+匹配所有元素：
+
+```css
+* {
+
+}
+
+/*给 box 的所有 child 设置样式*/
+.box * {
+
+}
 ```
