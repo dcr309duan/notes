@@ -92,8 +92,56 @@ a:hover {
 }
 ```
 
-# 组合选择器 `A B`
+# 组合选择器
+
+## `A B`
 
 - A 和 B 分别代表任一种单一选择器，A 和 B 之间有空格
 - `A B` 代表内部的所有的 B
 
+下面的 css，会选中 class 为 menu 下的 class 为 item 的元素：
+
+```css
+.menu .item {
+	border: 1px solid red;
+}
+```
+
+## `A>B`
+
+代表 A 的直接子元素 B
+
+```css
+.menu>.item {
+	border: 1px solid red;
+}
+```
+
+直接写 `A B`，会选中 A 内的所有 B 的元素。
+
+而 `A>B`，只有 A 的直接子元素会被选中
+
+## `AB`
+
+代表，既是 A，又是 B 的元素
+
+```css
+.item.active {
+	color: red;
+}
+```
+
+
+## `A,B`
+
+代表，分别选中 A 和 B
+
+```css
+.title, .detail {
+	font-size: 20px;
+}
+
+.detail {
+	color: grey;
+}
+```
