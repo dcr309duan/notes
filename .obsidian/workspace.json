@@ -20,6 +20,16 @@
             }
           },
           {
+            "id": "2589e5ef55630e81",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.3.7"
+              }
+            }
+          },
+          {
             "id": "f2ae9cd648e65468",
             "type": "leaf",
             "state": {
@@ -31,7 +41,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -176,8 +187,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3f2dcd6fae22ed99",
+  "active": "2589e5ef55630e81",
   "lastOpenFiles": [
+    "attachments/32_1692536812 2.mp4",
+    "attachments/32_1692536812 1.mp4",
+    "attachments/32_1692536812.mp4",
+    "attachments/31_1692536800.mp4",
+    "attachments/301692536779_.pic.jpg",
+    "attachments/291692536778_.pic.jpg",
+    "attachments/Pasted image 20230820205938.png",
+    "attachments",
     "前端/基础学习/css/css 知识体系.md",
     "2023-08-20.md",
     "前端/基础学习/css/CSS 选择器.md",
@@ -205,25 +224,17 @@
     "前端/基础学习",
     "AI 学习/DeepLearning/基础知识/Regulation.md",
     "前端/走进前端工程师的世界",
-    "前端",
     "AI 学习/DeepLearning/ReLU function.md",
     "AI 学习/DeepLearning/基础知识/attachments/Pasted image 20230611225451.png",
     "AI 学习/DeepLearning/Sigmoid function.md",
     "AI 学习/DeepLearning/基础知识/attachments/sigmoid.png",
-    "AI 学习/DeepLearning/基础知识/attachments/output.png",
-    "AI 学习/DeepLearning/基础知识/attachments/Pasted image 20230611221433.png",
     "AI 学习/DeepLearning/基础知识/Untitled.md",
-    "AI 学习/DeepLearning/基础知识/attachments/Pasted image 20230611205128.png",
-    "AI 学习/DeepLearning/基础知识/attachments",
-    "AI 学习/DeepLearning/基础知识",
     "Android/Compose/Modifier/Modifier.md",
-    "AI 学习/DeepLearning",
     "Android/Compose/动画/Transition 的扩展.md",
     "Android/Compose/动画/Crossfade.md",
     "README.md",
     "学习计划.md",
     "Android/Compose/动画/Transition - 多属性的状态切换.md",
-    "Android/Compose/动画/动画终止.md",
     "未命名.canvas"
   ]
 }
