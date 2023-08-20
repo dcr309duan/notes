@@ -8,5 +8,24 @@
 
 如果优先级完全相同，后面的覆盖前面的
 
-# !important 和内联样式
+# 优先级详解
+## !important 和内联样式
+
+```css
+<style>  
+    p {  
+        color: red !important;  
+    }  
+    .box p {  
+        color: blue;  
+    }</style>  
+  
+<div class="box">  
+    <p style="color: yellow;">Hello World</p>  
+</div>
+```
+
+`<p>` 标签最终生效的是带有 `!important` 的样式，显示为红色。
+
+## 继承的样式
 
