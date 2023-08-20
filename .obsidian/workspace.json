@@ -25,7 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/基础学习/css/CSS 选择器.md",
+                "file": "前端/基础学习/css/css 权重计算 -- 优先级.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "97df198da6d5eb4a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "前端/基础学习/css/css 知识体系.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/基础学习/css/CSS 选择器.md",
+                "file": "前端/基础学习/css/css 权重计算 -- 优先级.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端/基础学习/css/CSS 选择器.md",
+                "file": "前端/基础学习/css/css 权重计算 -- 优先级.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/基础学习/css/CSS 选择器.md"
+                "file": "前端/基础学习/css/css 权重计算 -- 优先级.md"
               }
             }
           },
@@ -179,11 +191,12 @@
   },
   "active": "f2ae9cd648e65468",
   "lastOpenFiles": [
+    "前端/基础学习/css/CSS 选择器.md",
+    "前端/基础学习/css/css 权重计算 -- 优先级.md",
     "前端/基础学习/css/css 知识体系.md",
     "前端/基础学习/css/css 书写规范.md",
     "前端/基础学习/css/css 的引入.md",
     "前端/基础学习/css/css 的调试.md",
-    "前端/基础学习/css/CSS 选择器.md",
     "前端/基础学习/css/css 注释.md",
     "2023-08-20.md",
     "attachments/32_1692536812 2.mp4",
