@@ -29,3 +29,34 @@
 
 ## 继承的样式
 
+下面样式，文字将展示黄色：
+
+```css
+<style>  
+    .box {  
+        color: red !important;  
+    }  
+    .box p {  
+        color: blue;  
+    }</style>  
+  
+<div class="box">  
+    <p style="color: yellow;">Hello World</p>  
+</div>
+```
+
+红色是 p 继承自 box 的，权重是最低的，第二是通过 `.box p` 设置的蓝色，最高的是内联设置的黄色。
+
+下面的例子，连接将显示浏览器链接的默认颜色：
+
+```css
+<style>  
+    .box {  
+        color: red !important;  
+    }  
+    </style>  
+  
+<div class="box">  
+    <a href="#">Hello World</a>  
+</div>
+```
