@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/基础学习/css/css 权重计算 -- 优先级.md",
+                "file": "2023-08-26.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/基础学习/css/css 权重计算 -- 优先级.md",
+                "file": "2023-08-26.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端/基础学习/css/css 权重计算 -- 优先级.md",
+                "file": "2023-08-26.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/基础学习/css/css 权重计算 -- 优先级.md"
+                "file": "2023-08-26.md"
               }
             }
           },
@@ -191,8 +191,9 @@
   },
   "active": "f2ae9cd648e65468",
   "lastOpenFiles": [
-    "前端/基础学习/css/CSS 选择器.md",
     "前端/基础学习/css/css 权重计算 -- 优先级.md",
+    "2023-08-26.md",
+    "前端/基础学习/css/CSS 选择器.md",
     "前端/基础学习/css/css 知识体系.md",
     "前端/基础学习/css/css 书写规范.md",
     "前端/基础学习/css/css 的引入.md",
@@ -236,7 +237,6 @@
     "Android/Compose/动画/Crossfade.md",
     "README.md",
     "学习计划.md",
-    "Android/Compose/动画/Transition - 多属性的状态切换.md",
     "未命名.canvas"
   ]
 }
