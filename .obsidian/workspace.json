@@ -201,8 +201,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f2ae9cd648e65468",
+  "active": "2b34947d22f38527",
   "lastOpenFiles": [
+    "鸿蒙/ArkTS",
     "鸿蒙/extension.md",
     "鸿蒙/项目结构.md",
     "鸿蒙/Ability.md",
@@ -248,7 +249,6 @@
     "前端/基础学习/html/GetStarted HTML.md",
     "前端/基础学习/html/BEM 命名.md",
     "AI 学习/DeepLearning/基础知识/Regulation.md",
-    "AI 学习/DeepLearning/ReLU function.md",
     "未命名.canvas"
   ]
 }
