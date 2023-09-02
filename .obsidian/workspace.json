@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "鸿蒙/项目目录结构.md",
+                "file": "鸿蒙/项目结构.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "鸿蒙/项目目录结构.md",
+                "file": "鸿蒙/项目结构.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "鸿蒙/项目目录结构.md",
+                "file": "鸿蒙/项目结构.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "鸿蒙/项目目录结构.md"
+                "file": "鸿蒙/项目结构.md"
               }
             }
           },
@@ -203,8 +203,10 @@
   },
   "active": "efe8f3b47d9be874",
   "lastOpenFiles": [
-    "鸿蒙/白皮书.md",
+    "鸿蒙/疑问汇总.md",
+    "鸿蒙/项目结构.md",
     "鸿蒙/项目目录结构.md",
+    "鸿蒙/白皮书.md",
     "鸿蒙/attachments/Pasted image 20230902230015.png",
     "鸿蒙/attachments/Pasted image 20230902225725.png",
     "鸿蒙/attachments/Pasted image 20230902225545.png",
@@ -247,8 +249,6 @@
     "AI 学习/DeepLearning/Sigmoid function.md",
     "AI 学习/DeepLearning/基础知识/Untitled.md",
     "Android/Compose/Modifier/Modifier.md",
-    "Android/Compose/动画/Transition 的扩展.md",
-    "Android/Compose/动画/Crossfade.md",
     "未命名.canvas"
   ]
 }
