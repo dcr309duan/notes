@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "鸿蒙/白皮书.md",
+                "file": "鸿蒙/项目目录结构.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "鸿蒙/白皮书.md",
+                "file": "鸿蒙/项目目录结构.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "鸿蒙/白皮书.md",
+                "file": "鸿蒙/项目目录结构.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "鸿蒙/白皮书.md"
+                "file": "鸿蒙/项目目录结构.md"
               }
             }
           },
@@ -203,6 +203,8 @@
   },
   "active": "efe8f3b47d9be874",
   "lastOpenFiles": [
+    "鸿蒙/白皮书.md",
+    "鸿蒙/项目目录结构.md",
     "鸿蒙/attachments/Pasted image 20230902230015.png",
     "鸿蒙/attachments/Pasted image 20230902225725.png",
     "鸿蒙/attachments/Pasted image 20230902225545.png",
@@ -210,7 +212,6 @@
     "鸿蒙/attachments/Pasted image 20230902225444.png",
     "鸿蒙/attachments/Pasted image 20230902223402.png",
     "鸿蒙/attachments",
-    "鸿蒙/白皮书.md",
     "鸿蒙",
     "2023-08-26.md",
     "前端/基础学习/css/css 权重计算 -- 优先级.md",
@@ -230,7 +231,6 @@
     "attachments/Pasted image 20230820205938.png",
     "attachments",
     "前端/基础学习/css/attachments/Pasted image 20230720224320.png",
-    "前端/基础学习/css/attachments/Pasted image 20230717235626.png",
     "前端/基础学习/css/attachments",
     "AI 学习/DeepLearning/基础知识/Logistic Regression.md",
     "前端/走进前端工程师的世界/互联网公司角色.md",
