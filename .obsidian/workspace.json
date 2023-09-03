@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "鸿蒙/ArkTS/TypeScript 基础.md",
+                "file": "鸿蒙/ArkTS/ArkTS 起源和演进.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "鸿蒙/ArkTS/TypeScript 基础.md",
+                "file": "鸿蒙/ArkTS/ArkTS 起源和演进.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "鸿蒙/ArkTS/TypeScript 基础.md",
+                "file": "鸿蒙/ArkTS/ArkTS 起源和演进.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "鸿蒙/ArkTS/TypeScript 基础.md"
+                "file": "鸿蒙/ArkTS/ArkTS 起源和演进.md"
               }
             }
           },
@@ -182,7 +182,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -203,8 +204,11 @@
   },
   "active": "f2ae9cd648e65468",
   "lastOpenFiles": [
-    "鸿蒙/项目结构.md",
+    "鸿蒙/ArkTS/attachments/Pasted image 20230903104517.png",
+    "鸿蒙/ArkTS/attachments",
     "鸿蒙/ArkTS/TypeScript 基础.md",
+    "鸿蒙/ArkTS/ArkTS 起源和演进.md",
+    "鸿蒙/项目结构.md",
     "鸿蒙/ArkTS",
     "鸿蒙/extension.md",
     "鸿蒙/Ability.md",
@@ -241,14 +245,11 @@
     "前端/基础学习/css/attachments",
     "AI 学习/DeepLearning/基础知识/Logistic Regression.md",
     "前端/走进前端工程师的世界/互联网公司角色.md",
-    "前端/基础学习/css",
     "前端/基础学习/常用网站.md",
     "前端/基础学习/html/更多标签.md",
     "前端/基础学习/html/class 和 id.md",
     "前端/基础学习/html/HTML 重要标签.md",
     "前端/基础学习/html/GetStarted HTML.md",
-    "前端/基础学习/html/BEM 命名.md",
-    "AI 学习/DeepLearning/基础知识/Regulation.md",
     "未命名.canvas"
   ]
 }
