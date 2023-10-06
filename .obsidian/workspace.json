@@ -44,6 +44,16 @@
             }
           },
           {
+            "id": "bc8c65099ef65649",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.14"
+              }
+            }
+          },
+          {
             "id": "97df198da6d5eb4a",
             "type": "leaf",
             "state": {
@@ -68,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -193,6 +203,16 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "11b2f1c0dd25c039",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
           }
         ],
         "currentTab": 3
@@ -214,7 +234,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "81941b60f47114f4",
+  "active": "bc8c65099ef65649",
   "lastOpenFiles": [
     "v8 学习/V8 初始化.md",
     "A-Level/U1 -.md",
