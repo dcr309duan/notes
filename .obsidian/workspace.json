@@ -47,9 +47,11 @@
             "id": "bc8c65099ef65649",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.4.14"
+                "file": "计划/恋爱计划.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -152,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "A-Level/U1 -.md",
+                "file": "计划/恋爱计划.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "A-Level/U1 -.md",
+                "file": "计划/恋爱计划.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "A-Level/U1 -.md"
+                "file": "计划/恋爱计划.md"
               }
             }
           },
@@ -236,6 +238,9 @@
   },
   "active": "bc8c65099ef65649",
   "lastOpenFiles": [
+    "计划/学习计划.md",
+    "计划/恋爱计划.md",
+    "计划",
     "v8 学习/V8 初始化.md",
     "A-Level/U1 -.md",
     "A-Level",
@@ -277,11 +282,8 @@
     "2023-08-20.md",
     "attachments/32_1692536812 2.mp4",
     "attachments/32_1692536812 1.mp4",
-    "attachments/32_1692536812.mp4",
     "AI 学习/DeepLearning/基础知识/Logistic Regression.md",
     "前端/走进前端工程师的世界/互联网公司角色.md",
-    "前端/基础学习/常用网站.md",
-    "前端/基础学习/html/更多标签.md",
     "未命名.canvas"
   ]
 }
