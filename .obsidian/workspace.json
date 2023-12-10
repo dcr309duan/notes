@@ -1,0 +1,296 @@
+{
+  "main": {
+    "id": "c031de13ebe35b37",
+    "type": "split",
+    "children": [
+      {
+        "id": "3616d73e2c9901e6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3f2dcd6fae22ed99",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2023-08-20.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f2ae9cd648e65468",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "v8 学习/V8 初始化.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "81941b60f47114f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "A-Level/U1 -.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bc8c65099ef65649",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "v8 学习/V8 初始化.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "97df198da6d5eb4a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "前端/基础学习/css/css 知识体系.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "efe8f3b47d9be874",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "鸿蒙/三种模块类型.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9297dab1debe9c7a",
+    "type": "split",
+    "children": [
+      {
+        "id": "8352288947221dff",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2b34947d22f38527",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "477b6934ea898337",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fe563b2815404b58",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "00c7deb2ae373225",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 222.5
+  },
+  "right": {
+    "id": "37a6b38c6e378df2",
+    "type": "split",
+    "children": [
+      {
+        "id": "b051ed633eab1e1d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "11202f794f94b5c3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "v8 学习/V8 初始化.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e000f75bc30e87f5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "v8 学习/V8 初始化.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2cd85fc98125f022",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "820c94b064f23087",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "v8 学习/V8 初始化.md"
+              }
+            }
+          },
+          {
+            "id": "08e169e10d366cf3",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "11b2f1c0dd25c039",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          },
+          {
+            "id": "117a910ed8baa40b",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "horizontal",
+    "width": 524.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "workspaces:Manage workspace layouts": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "bc8c65099ef65649",
+  "lastOpenFiles": [
+    "计划/恋爱计划.md",
+    "鸿蒙/三种模块类型.md",
+    "鸿蒙/State",
+    "鸿蒙/Layout",
+    "鸿蒙/extension.md",
+    "鸿蒙/UIAbility.md",
+    "计划/学习计划.md",
+    "计划",
+    "v8 学习/V8 初始化.md",
+    "A-Level/U1 -.md",
+    "A-Level",
+    "v8 学习/attachments/Pasted image 20230917180703.png",
+    "v8 学习/attachments/Pasted image 20230917121050.png",
+    "v8 学习/attachments",
+    "前端/基础学习/css/css 权重计算 -- 优先级.md",
+    "v8 学习",
+    "前端/基础学习/css/attachments/Pasted image 20230910220220.png",
+    "前端/基础学习/css/attachments/Pasted image 20230910214908.png",
+    "鸿蒙/attachments/Pasted image 20230903163049.png",
+    "鸿蒙/ArkTS/数据的几种类型.md",
+    "鸿蒙/ArkTS/attachments/Pasted image 20230903150101.png",
+    "鸿蒙/ArkTS/ArkTS 起源和演进.md",
+    "鸿蒙/ArkTS/attachments/Pasted image 20230903105739.png",
+    "鸿蒙/ArkTS/attachments/Pasted image 20230903104517.png",
+    "鸿蒙/ArkTS/attachments",
+    "鸿蒙/ArkTS/TypeScript 基础.md",
+    "鸿蒙/项目结构.md",
+    "鸿蒙/ArkTS",
+    "鸿蒙/Ability.md",
+    "鸿蒙/项目目录结构.md",
+    "2023-08-26.md",
+    "前端/基础学习/css/css 知识体系.md",
+    "鸿蒙/疑问汇总.md",
+    "鸿蒙/白皮书.md",
+    "鸿蒙/attachments/Pasted image 20230902230015.png",
+    "鸿蒙/attachments/Pasted image 20230902225725.png",
+    "鸿蒙/attachments",
+    "鸿蒙",
+    "前端/基础学习/css/CSS 选择器.md",
+    "前端/基础学习/css/css 书写规范.md",
+    "前端/基础学习/css/css 的引入.md",
+    "前端/基础学习/css/css 的调试.md",
+    "前端/基础学习/css/css 注释.md",
+    "2023-08-20.md",
+    "AI 学习/DeepLearning/基础知识/Logistic Regression.md",
+    "未命名.canvas"
+  ]
+}
