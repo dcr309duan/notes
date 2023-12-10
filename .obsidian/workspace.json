@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "v8 学习/V8 初始化.md",
+                "file": "鸿蒙/装饰器.md",
                 "mode": "source",
                 "source": false
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "v8 学习/V8 初始化.md",
+                "file": "鸿蒙/装饰器.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "v8 学习/V8 初始化.md",
+                "file": "鸿蒙/装饰器.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "v8 学习/V8 初始化.md"
+                "file": "鸿蒙/装饰器.md"
               }
             }
           },
@@ -229,7 +229,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 524.5
+    "width": 524.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -246,6 +247,8 @@
   },
   "active": "bc8c65099ef65649",
   "lastOpenFiles": [
+    "v8 学习/V8 初始化.md",
+    "鸿蒙/装饰器.md",
     "计划/恋爱计划.md",
     "鸿蒙/三种模块类型.md",
     "鸿蒙/State",
@@ -254,7 +257,6 @@
     "鸿蒙/UIAbility.md",
     "计划/学习计划.md",
     "计划",
-    "v8 学习/V8 初始化.md",
     "A-Level/U1 -.md",
     "A-Level",
     "v8 学习/attachments/Pasted image 20230917180703.png",
