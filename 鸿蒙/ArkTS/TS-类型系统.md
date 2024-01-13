@@ -20,3 +20,5 @@ interface IUser {
 	
 }
 ```
+
+# 类型编程
