@@ -56,6 +56,16 @@
             }
           },
           {
+            "id": "01e86cb95dbdc274",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.12"
+              }
+            }
+          },
+          {
             "id": "97df198da6d5eb4a",
             "type": "leaf",
             "state": {
@@ -80,7 +90,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -247,7 +257,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bc8c65099ef65649",
+  "active": "01e86cb95dbdc274",
   "lastOpenFiles": [
     "效率/vim/LunarVim.md",
     "鸿蒙/ArkTS/TS-类型系统.md",
