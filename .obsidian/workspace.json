@@ -56,16 +56,6 @@
             }
           },
           {
-            "id": "01e86cb95dbdc274",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.12"
-              }
-            }
-          },
-          {
             "id": "97df198da6d5eb4a",
             "type": "leaf",
             "state": {
@@ -90,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -164,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "鸿蒙/Ability.md",
+                "file": "鸿蒙/三种模块类型.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "鸿蒙/Ability.md",
+                "file": "鸿蒙/三种模块类型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "鸿蒙/Ability.md"
+                "file": "鸿蒙/三种模块类型.md"
               }
             }
           },
@@ -257,8 +247,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "01e86cb95dbdc274",
+  "active": "efe8f3b47d9be874",
   "lastOpenFiles": [
+    "前端/基础学习/css/css 知识体系.md",
+    "A-Level/U1 -.md",
+    "鸿蒙/Ability.md",
     "效率/vim/LunarVim.md",
     "鸿蒙/ArkTS/TS-类型系统.md",
     "博客",
@@ -273,7 +266,6 @@
     "鸿蒙/UIAbility.md",
     "计划/学习计划.md",
     "计划",
-    "A-Level/U1 -.md",
     "A-Level",
     "v8 学习/attachments/Pasted image 20230917180703.png",
     "v8 学习/attachments/Pasted image 20230917121050.png",
@@ -291,10 +283,8 @@
     "鸿蒙/ArkTS/attachments",
     "鸿蒙/项目结构.md",
     "鸿蒙/ArkTS",
-    "鸿蒙/Ability.md",
     "鸿蒙/项目目录结构.md",
     "2023-08-26.md",
-    "前端/基础学习/css/css 知识体系.md",
     "鸿蒙/疑问汇总.md",
     "鸿蒙/白皮书.md",
     "鸿蒙/attachments/Pasted image 20230902230015.png",
