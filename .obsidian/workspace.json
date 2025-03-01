@@ -4,83 +4,51 @@
     "type": "split",
     "children": [
       {
-        "id": "3616d73e2c9901e6",
+        "id": "3cf6d7bc85952b4f",
         "type": "tabs",
         "children": [
           {
-            "id": "3f2dcd6fae22ed99",
+            "id": "bb8fdd1b3d89cd99",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023-08-20.md",
+                "file": "Kotlin/根目录-settings.gradle.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "根目录-settings.gradle"
             }
           },
           {
-            "id": "f2ae9cd648e65468",
+            "id": "d401a6cc8aa550b5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "v8 学习/V8 初始化.md",
+                "file": "gradle-build-conventions.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "gradle-build-conventions"
             }
           },
           {
-            "id": "81941b60f47114f4",
+            "id": "cbb8e078509ef508",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "A-Level/U1 -.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bc8c65099ef65649",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "鸿蒙/Ability.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "97df198da6d5eb4a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "前端/基础学习/css/css 知识体系.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "efe8f3b47d9be874",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "鸿蒙/三种模块类型.md",
-                "mode": "source",
-                "source": false
-              }
+                "file": "Kotlin/Kotlin-Learn-Plan.md"
+              },
+              "icon": "lucide-trello",
+              "title": "Kotlin-Learn-Plan"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -99,8 +67,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -109,13 +80,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#kotlin-component",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -123,7 +96,9 @@
             "type": "leaf",
             "state": {
               "type": "starred",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -131,7 +106,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -154,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "鸿蒙/三种模块类型.md",
+                "file": "2023-08-20.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +139,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 2023-08-20"
             }
           },
           {
@@ -171,10 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "鸿蒙/三种模块类型.md",
+                "file": "2023-08-20.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 2023-08-20"
             }
           },
           {
@@ -185,7 +166,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -194,8 +177,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "鸿蒙/三种模块类型.md"
-              }
+                "file": "2023-08-20.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 2023-08-20"
             }
           },
           {
@@ -203,7 +188,9 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
-              "state": {}
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           },
           {
@@ -215,7 +202,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           },
           {
@@ -223,7 +212,9 @@
             "type": "leaf",
             "state": {
               "type": "git-history-view",
-              "state": {}
+              "state": {},
+              "icon": "history",
+              "title": "History"
             }
           }
         ],
@@ -247,54 +238,54 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "efe8f3b47d9be874",
+  "active": "2b34947d22f38527",
   "lastOpenFiles": [
+    "gradle-build-conventions.md",
+    "Kotlin/根目录-settings.gradle.md",
+    "Kotlin/Kotlin-Learn-Plan.md",
+    "gradle-settings-conventions.md",
+    "Kotlin/kotlin 构建系统.md",
+    "Kotlin/includeBuild.md",
+    "kotlin/settings.gradle.md",
+    "Kotlin/settings.gradle.md",
+    "Kotlin/gradle - pluginManagement.md",
+    "oh-deepseek/需求文档.md",
+    "oh-deepseek/attachments/Pasted image 20250211071030.png",
+    "Kotlin",
+    "oh-deepseek/attachments",
+    "AI 学习/DeepLearning/ReLU function.md",
+    "AI 学习/DeepLearning/Sigmoid function.md",
+    "学习计划.md",
+    "鸿蒙/项目目录结构.md",
+    "鸿蒙/项目结构.md",
+    "鸿蒙/ArkTS/TS-类型系统.md",
+    "oh-deepseek",
+    "鸿蒙/ArkTS/ArkTS 起源和演进.md",
+    "鸿蒙/Ability.md",
+    "鸿蒙/UIAbility.md",
+    "鸿蒙/白皮书.md",
+    "鸿蒙/疑问汇总.md",
+    "2023-08-26.md",
+    "2023-08-20.md",
     "前端/基础学习/css/css 知识体系.md",
     "A-Level/U1 -.md",
-    "鸿蒙/Ability.md",
     "效率/vim/LunarVim.md",
-    "鸿蒙/ArkTS/TS-类型系统.md",
     "博客",
-    "鸿蒙/ArkTS/TypeScript 基础.md",
-    "鸿蒙/装饰器.md",
-    "v8 学习/V8 初始化.md",
-    "计划/恋爱计划.md",
-    "鸿蒙/三种模块类型.md",
     "鸿蒙/State",
     "鸿蒙/Layout",
-    "鸿蒙/extension.md",
-    "鸿蒙/UIAbility.md",
-    "计划/学习计划.md",
     "计划",
     "A-Level",
     "v8 学习/attachments/Pasted image 20230917180703.png",
     "v8 学习/attachments/Pasted image 20230917121050.png",
     "v8 学习/attachments",
-    "前端/基础学习/css/css 权重计算 -- 优先级.md",
     "v8 学习",
     "前端/基础学习/css/attachments/Pasted image 20230910220220.png",
     "前端/基础学习/css/attachments/Pasted image 20230910214908.png",
     "鸿蒙/attachments/Pasted image 20230903163049.png",
-    "鸿蒙/ArkTS/数据的几种类型.md",
     "鸿蒙/ArkTS/attachments/Pasted image 20230903150101.png",
-    "鸿蒙/ArkTS/ArkTS 起源和演进.md",
     "鸿蒙/ArkTS/attachments/Pasted image 20230903105739.png",
     "鸿蒙/ArkTS/attachments/Pasted image 20230903104517.png",
-    "鸿蒙/ArkTS/attachments",
-    "鸿蒙/项目结构.md",
-    "鸿蒙/ArkTS",
-    "鸿蒙/项目目录结构.md",
-    "2023-08-26.md",
-    "鸿蒙/疑问汇总.md",
-    "鸿蒙/白皮书.md",
     "鸿蒙/attachments/Pasted image 20230902230015.png",
-    "鸿蒙/attachments/Pasted image 20230902225725.png",
-    "鸿蒙/attachments",
-    "前端/基础学习/css/CSS 选择器.md",
-    "前端/基础学习/css/css 书写规范.md",
-    "前端/基础学习/css/css 的引入.md",
-    "前端/基础学习/css/css 的调试.md",
-    "前端/基础学习/css/css 注释.md",
     "未命名.canvas"
   ]
 }
