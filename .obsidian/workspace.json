@@ -47,7 +47,8 @@
               "title": "Kotlin-Learn-Plan"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -237,11 +238,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bb8fdd1b3d89cd99",
+  "active": "2b34947d22f38527",
   "lastOpenFiles": [
-    "gradle-build-conventions.md",
+    "学习计划conventions.md",
     "Kotlin/Kotlin-Learn-Plan.md",
     "Kotlin/根目录-settings.gradle.md",
+    "gradle-build-conventions.md",
     "gradle-settings-conventions.md",
     "Kotlin/kotlin 构建系统.md",
     "Kotlin/includeBuild.md",
@@ -254,7 +256,7 @@
     "oh-deepseek/attachments",
     "AI 学习/DeepLearning/ReLU function.md",
     "AI 学习/DeepLearning/Sigmoid function.md",
-    "学习计划.md",
+    "Kotlin/kotlin学习计划.md",
     "鸿蒙/项目目录结构.md",
     "鸿蒙/项目结构.md",
     "鸿蒙/ArkTS/TS-类型系统.md",
@@ -268,7 +270,6 @@
     "2023-08-20.md",
     "前端/基础学习/css/css 知识体系.md",
     "A-Level/U1 -.md",
-    "效率/vim/LunarVim.md",
     "博客",
     "鸿蒙/State",
     "鸿蒙/Layout",

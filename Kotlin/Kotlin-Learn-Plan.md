@@ -6,7 +6,7 @@ kanban-plugin: basic
 
 ## Todos
 
-- [ ] #kotlin-component gradle-settings-conventions @{2025-03-02}
+- [ ] #kotlin-component [[学习计划conventions]] @{2025-03-02}
 - [ ] #kotlin-component  gradle-build-conventions @{2025-03-02}
 
 
