@@ -47,8 +47,7 @@
               "title": "Kotlin-Learn-Plan"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -238,11 +237,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2b34947d22f38527",
+  "active": "bb8fdd1b3d89cd99",
   "lastOpenFiles": [
     "gradle-build-conventions.md",
-    "Kotlin/根目录-settings.gradle.md",
     "Kotlin/Kotlin-Learn-Plan.md",
+    "Kotlin/根目录-settings.gradle.md",
     "gradle-settings-conventions.md",
     "Kotlin/kotlin 构建系统.md",
     "Kotlin/includeBuild.md",
