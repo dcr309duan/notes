@@ -22,6 +22,36 @@
             }
           },
           {
+            "id": "515f7e266c13cf95",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kotlin/kotlin 构建系统.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "kotlin 构建系统"
+            }
+          },
+          {
+            "id": "468ab143e123534f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "kotlin/gradle/plugins/internal-gradle-setup.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "internal-gradle-setup"
+            }
+          },
+          {
             "id": "bb8fdd1b3d89cd99",
             "type": "leaf",
             "pinned": true,
@@ -35,6 +65,48 @@
               "pinned": true,
               "icon": "lucide-file",
               "title": "根目录-settings.gradle"
+            }
+          },
+          {
+            "id": "e8541b7c60815945",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "kotlin/gradle/plugins/internal-gradle-setup.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "internal-gradle-setup"
+            }
+          },
+          {
+            "id": "cfea28618bf25a22",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "kotlin/gradle/plugins/de.undercouch.download.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "de.undercouch.download"
+            }
+          },
+          {
+            "id": "25c576199e86da11",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "kotlin/gradle/repositories.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "repositories"
             }
           },
           {
@@ -66,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -256,16 +328,26 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fea62f3846315971",
+  "active": "e8541b7c60815945",
   "lastOpenFiles": [
     "Kotlin/根目录-settings.gradle.md",
+    "Kotlin/Kotlin-Learn-Plan.md",
+    "Kotlin/kotlin 构建系统.md",
+    "kotlin/gradle/plugins/internal-gradle-setup.md",
+    "Kotlin/gradle/plugins/internal-gradle-setup.md",
+    "kotlin/gradle/plugins/de.undercouch.download.md",
+    "Kotlin/gradle/plugins/de.undercouch.download.md",
+    "Kotlin/gradle/plugins",
+    "kotlin/gradle/plugins",
+    "kotlin/gradle/repositories.md",
+    "Kotlin/gradle/repositories.md",
+    "Kotlin/gradle",
+    "kotlin/gradle",
     "Kotlin/apply from.md",
     "Kotlin/gradle-settings-conventions.md",
-    "Kotlin/Kotlin-Learn-Plan.md",
     "Kotlin/gradle-build-conventions.md",
     "Kotlin/kotlin学习计划.md",
     "学习计划conventions.md",
-    "Kotlin/kotlin 构建系统.md",
     "Kotlin/includeBuild.md",
     "kotlin/settings.gradle.md",
     "Kotlin/settings.gradle.md",
@@ -282,21 +364,11 @@
     "oh-deepseek",
     "鸿蒙/ArkTS/ArkTS 起源和演进.md",
     "鸿蒙/Ability.md",
-    "鸿蒙/UIAbility.md",
-    "鸿蒙/白皮书.md",
-    "鸿蒙/疑问汇总.md",
-    "2023-08-26.md",
-    "2023-08-20.md",
-    "前端/基础学习/css/css 知识体系.md",
     "博客",
     "鸿蒙/State",
     "鸿蒙/Layout",
-    "计划",
-    "A-Level",
     "v8 学习/attachments/Pasted image 20230917180703.png",
     "v8 学习/attachments/Pasted image 20230917121050.png",
-    "v8 学习/attachments",
-    "v8 学习",
     "前端/基础学习/css/attachments/Pasted image 20230910220220.png",
     "前端/基础学习/css/attachments/Pasted image 20230910214908.png",
     "鸿蒙/attachments/Pasted image 20230903163049.png",

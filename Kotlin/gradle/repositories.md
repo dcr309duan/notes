@@ -1,0 +1,1 @@
+`repositories` 定义了解析插件和依赖项的 maven 仓库。
