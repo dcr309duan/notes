@@ -4,155 +4,198 @@
     "type": "split",
     "children": [
       {
-        "id": "3cf6d7bc85952b4f",
-        "type": "tabs",
+        "id": "a8ea2fac0e818920",
+        "type": "split",
         "children": [
           {
-            "id": "cf859426af761a81",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "Kotlin/Kotlin-Learn-Plan.md"
+            "id": "3cf6d7bc85952b4f",
+            "type": "tabs",
+            "dimension": 78.46045197740112,
+            "children": [
+              {
+                "id": "515f7e266c13cf95",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Kotlin/kotlin 构建系统.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "kotlin 构建系统"
+                }
               },
-              "pinned": true,
-              "icon": "lucide-trello",
-              "title": "Kotlin-Learn-Plan"
-            }
+              {
+                "id": "bb8fdd1b3d89cd99",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Kotlin/根目录-settings.gradle.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "根目录-settings.gradle"
+                }
+              },
+              {
+                "id": "468ab143e123534f",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "kotlin/gradle/plugins/internal-gradle-setup.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "internal-gradle-setup"
+                }
+              },
+              {
+                "id": "c1dbfd8ae1acc71f",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "kotlin/gradle/plugins/kotlin-dsl.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "kotlin-dsl"
+                }
+              },
+              {
+                "id": "2a0e67f906dc869b",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Kotlin/gradle/plugins/kotlin-dsl.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "kotlin-dsl"
+                }
+              },
+              {
+                "id": "5f863f1bc6b5011a",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "kotlin/gradle/plugins.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "plugins"
+                }
+              },
+              {
+                "id": "e8541b7c60815945",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "kotlin/gradle/plugins/internal-gradle-setup.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "internal-gradle-setup"
+                }
+              },
+              {
+                "id": "cfea28618bf25a22",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "kotlin/gradle/plugins/de.undercouch.download.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "de.undercouch.download"
+                }
+              },
+              {
+                "id": "25c576199e86da11",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "kotlin/gradle/repositories.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "repositories"
+                }
+              },
+              {
+                "id": "fea62f3846315971",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Kotlin/apply from.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "apply from"
+                }
+              },
+              {
+                "id": "98058891652358eb",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Kotlin/gradle-settings-conventions.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "gradle-settings-conventions"
+                }
+              }
+            ],
+            "currentTab": 2
           },
           {
-            "id": "515f7e266c13cf95",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kotlin/kotlin 构建系统.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "kotlin 构建系统"
-            }
-          },
-          {
-            "id": "468ab143e123534f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "kotlin/gradle/plugins/internal-gradle-setup.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "internal-gradle-setup"
-            }
-          },
-          {
-            "id": "bb8fdd1b3d89cd99",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kotlin/根目录-settings.gradle.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "根目录-settings.gradle"
-            }
-          },
-          {
-            "id": "30e2f6bc2f92bd8d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "kotlin/gradle/plugins/custom plugin.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "custom plugin"
-            }
-          },
-          {
-            "id": "e8541b7c60815945",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "kotlin/gradle/plugins/internal-gradle-setup.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "internal-gradle-setup"
-            }
-          },
-          {
-            "id": "cfea28618bf25a22",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "kotlin/gradle/plugins/de.undercouch.download.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "de.undercouch.download"
-            }
-          },
-          {
-            "id": "25c576199e86da11",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "kotlin/gradle/repositories.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "repositories"
-            }
-          },
-          {
-            "id": "fea62f3846315971",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kotlin/apply from.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "apply from"
-            }
-          },
-          {
-            "id": "98058891652358eb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kotlin/gradle-settings-conventions.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "gradle-settings-conventions"
-            }
+            "id": "d56322dba434716f",
+            "type": "tabs",
+            "dimension": 21.53954802259887,
+            "children": [
+              {
+                "id": "cf859426af761a81",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "kanban",
+                  "state": {
+                    "file": "Kotlin/Kotlin-Learn-Plan.md"
+                  },
+                  "pinned": true,
+                  "icon": "lucide-trello",
+                  "title": "Kotlin-Learn-Plan"
+                }
+              }
+            ]
           }
         ],
-        "currentTab": 4
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -322,7 +365,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -342,17 +385,25 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "30e2f6bc2f92bd8d",
+  "active": "468ab143e123534f",
   "lastOpenFiles": [
-    "Kotlin/gradle/plugins/custom plugin.md",
-    "kotlin/gradle/plugins/custom plugin.md",
+    "kotlin/gradle/plugins/kotlin-dsl.md",
+    "kotlin/gradle/plugins/internal-gradle-setup.md",
+    "Kotlin/kotlin 构建系统.md",
+    "Kotlin/Kotlin-Learn-Plan.md",
     "Kotlin/根目录-settings.gradle.md",
+    "Kotlin/gradle/plugins/kotlin-dsl.md",
+    "Kotlin/gradle/plugins/internal-gradle-setup.md",
+    "Kotlin/gradle/plugins/custom plugin.md",
+    "kotlin/gradle/plugins.md",
+    "Kotlin/gradle/plugins.md",
+    "kotlin/gradle/plugins/custom plugin.md",
+    "Kotlin/gradle/plugins/attachments/Pasted image 20250302101003.png",
+    "Kotlin/gradle/plugins/attachments",
+    "kotlin/gradle/plugins/attachments/Pasted image 20250302101003.png",
+    "kotlin/gradle/plugins/attachments",
     "Kotlin/attachments/Pasted image 20250302092152.png",
     "Kotlin/attachments",
-    "kotlin/gradle/plugins/internal-gradle-setup.md",
-    "Kotlin/Kotlin-Learn-Plan.md",
-    "Kotlin/kotlin 构建系统.md",
-    "Kotlin/gradle/plugins/internal-gradle-setup.md",
     "kotlin/gradle/plugins/de.undercouch.download.md",
     "Kotlin/gradle/plugins/de.undercouch.download.md",
     "Kotlin/gradle/plugins",
@@ -375,21 +426,13 @@
     "Kotlin",
     "oh-deepseek/attachments",
     "AI 学习/DeepLearning/ReLU function.md",
-    "AI 学习/DeepLearning/Sigmoid function.md",
-    "鸿蒙/项目目录结构.md",
-    "鸿蒙/项目结构.md",
-    "鸿蒙/ArkTS/TS-类型系统.md",
     "oh-deepseek",
-    "博客",
-    "鸿蒙/State",
     "v8 学习/attachments/Pasted image 20230917180703.png",
     "v8 学习/attachments/Pasted image 20230917121050.png",
     "前端/基础学习/css/attachments/Pasted image 20230910220220.png",
     "前端/基础学习/css/attachments/Pasted image 20230910214908.png",
     "鸿蒙/attachments/Pasted image 20230903163049.png",
     "鸿蒙/ArkTS/attachments/Pasted image 20230903150101.png",
-    "鸿蒙/ArkTS/attachments/Pasted image 20230903105739.png",
-    "鸿蒙/ArkTS/attachments/Pasted image 20230903104517.png",
     "未命名.canvas"
   ]
 }

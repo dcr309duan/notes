@@ -19,3 +19,9 @@ class HelloPlugin : Plugin<Project> {
     }
 }
 ```
+
+# 3 以 [[Kotlin/gradle/plugins/internal-gradle-setup|internal-gradle-setup]] 为例
+
+关键配置如下：
+
+![[Pasted image 20250302101003.png]]
