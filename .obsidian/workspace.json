@@ -68,6 +68,20 @@
             }
           },
           {
+            "id": "30e2f6bc2f92bd8d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "kotlin/gradle/plugins/custom plugin.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "custom plugin"
+            }
+          },
+          {
             "id": "e8541b7c60815945",
             "type": "leaf",
             "state": {
@@ -138,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -328,12 +342,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bb8fdd1b3d89cd99",
+  "active": "30e2f6bc2f92bd8d",
   "lastOpenFiles": [
+    "Kotlin/gradle/plugins/custom plugin.md",
+    "kotlin/gradle/plugins/custom plugin.md",
+    "Kotlin/根目录-settings.gradle.md",
     "Kotlin/attachments/Pasted image 20250302092152.png",
     "Kotlin/attachments",
     "kotlin/gradle/plugins/internal-gradle-setup.md",
-    "Kotlin/根目录-settings.gradle.md",
     "Kotlin/Kotlin-Learn-Plan.md",
     "Kotlin/kotlin 构建系统.md",
     "Kotlin/gradle/plugins/internal-gradle-setup.md",
@@ -364,7 +380,6 @@
     "鸿蒙/项目结构.md",
     "鸿蒙/ArkTS/TS-类型系统.md",
     "oh-deepseek",
-    "鸿蒙/ArkTS/ArkTS 起源和演进.md",
     "博客",
     "鸿蒙/State",
     "v8 学习/attachments/Pasted image 20230917180703.png",
@@ -375,7 +390,6 @@
     "鸿蒙/ArkTS/attachments/Pasted image 20230903150101.png",
     "鸿蒙/ArkTS/attachments/Pasted image 20230903105739.png",
     "鸿蒙/ArkTS/attachments/Pasted image 20230903104517.png",
-    "鸿蒙/attachments/Pasted image 20230902230015.png",
     "未命名.canvas"
   ]
 }
