@@ -1,4 +1,7 @@
-# 1 pluginManagement
+# 1 gradle setting files
+
+![[Pasted image 20250302112703.png]]
+# 2 pluginManagement
 
 ```groovy
 pluginManagement {  
@@ -28,7 +31,7 @@ pluginManagement {
 
 `pluginManagement` 是 Gradle 构建工具中用于集中管理插件仓库和版本的核心配置机制，主要作用于全局构建逻辑。
 
-## 1.1 包含其他构建
+## 2.1 包含其他构建
 
 ```groovy
 includeBuild("repo/gradle-settings-conventions") 
@@ -40,7 +43,7 @@ includeBuild("repo/gradle-build-conventions")
 - [[gradle-settings-conventions]]
 - [[gradle-build-conventions]]
 
-## 1.2 应用外部脚本
+## 2.2 应用外部脚本
 
 ```groovy
 apply from: 'repo/scripts/cache-redirector.settings.gradle.kts'  
@@ -52,7 +55,7 @@ apply from: 'repo/scripts/kotlin-bootstrap.settings.gradle.kts'
 1. 第一个脚本主要是重定向依赖下载地址，重定向到 jetbrains 的 cache 仓库，提高依赖下载的速度和稳定性
 2. 第二个脚本主要是和自举构建 kotlin 有关
 
-## 1.3 插件仓库配置
+## 2.3 插件仓库配置
 
 ```groovy
 repositories {  
@@ -70,7 +73,7 @@ repositories {
 
 [[kotlin/gradle/repositories|repositories]] 定义依赖仓库 
 
-## 1.4 插件应用
+## 2.4 插件应用
 
 ```groovy
 plugins {  
@@ -80,7 +83,7 @@ plugins {
 
 这里通过 [[kotlin/gradle/plugins|plugins]] 应用了 [[kotlin/gradle/plugins/de.undercouch.download|de.undercouch.download]] 插件，这个插件主要是用于文件下载的。
 
-# 2 plugins
+# 3 plugins
 
 ```groovy
 plugins {  

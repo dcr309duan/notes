@@ -20,6 +20,6 @@ plugins {
 
 - [[Kotlin/gradle/plugins/kotlin-dsl|kotlin-dsl]]: 启动 kotlin dsl 支持
 - `jvm`
-- [[kotlin/gradle/plugins/plugin-serialization|plugin.serialization]]
+- [[kotlin/gradle/plugins/plugin-serialization|plugin.serialization]]: 序列化
 - 
 
