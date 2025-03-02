@@ -138,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -328,12 +328,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e8541b7c60815945",
+  "active": "bb8fdd1b3d89cd99",
   "lastOpenFiles": [
+    "Kotlin/attachments/Pasted image 20250302092152.png",
+    "Kotlin/attachments",
+    "kotlin/gradle/plugins/internal-gradle-setup.md",
     "Kotlin/根目录-settings.gradle.md",
     "Kotlin/Kotlin-Learn-Plan.md",
     "Kotlin/kotlin 构建系统.md",
-    "kotlin/gradle/plugins/internal-gradle-setup.md",
     "Kotlin/gradle/plugins/internal-gradle-setup.md",
     "kotlin/gradle/plugins/de.undercouch.download.md",
     "Kotlin/gradle/plugins/de.undercouch.download.md",
@@ -363,10 +365,8 @@
     "鸿蒙/ArkTS/TS-类型系统.md",
     "oh-deepseek",
     "鸿蒙/ArkTS/ArkTS 起源和演进.md",
-    "鸿蒙/Ability.md",
     "博客",
     "鸿蒙/State",
-    "鸿蒙/Layout",
     "v8 学习/attachments/Pasted image 20230917180703.png",
     "v8 学习/attachments/Pasted image 20230917121050.png",
     "前端/基础学习/css/attachments/Pasted image 20230910220220.png",

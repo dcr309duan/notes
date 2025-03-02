@@ -98,3 +98,6 @@ plugins {
 - [[kotlin/gradle/plugins/jvm-toolchain-provisioning|jvm-toolchain-provisioning]]
 - [[kotlin/gradle/plugins/kotlin-daemon-config|kotlin-daemon-config]]
 
+这四个插件，对应 `repo/gradle-settings-conventions` 目录下的这四个插件：
+
+![[Pasted image 20250302092152.png]]
