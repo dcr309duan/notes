@@ -10,7 +10,7 @@
           {
             "id": "3cf6d7bc85952b4f",
             "type": "tabs",
-            "dimension": 78.46045197740112,
+            "dimension": 78.46045197740114,
             "children": [
               {
                 "id": "515f7e266c13cf95",
@@ -176,21 +176,33 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Kotlin/根目录-settings.gradle.md",
+                    "file": "Kotlin/compile/Kotlin 编译过程断点调试.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "根目录-settings.gradle"
+                  "title": "Kotlin 编译过程断点调试"
+                }
+              },
+              {
+                "id": "6d3e9d4fdfcdb770",
+                "type": "leaf",
+                "state": {
+                  "type": "release-notes",
+                  "state": {
+                    "currentVersion": "1.8.9"
+                  },
+                  "icon": "lucide-book-up",
+                  "title": "Release Notes 1.8.9"
                 }
               }
             ],
-            "currentTab": 11
+            "currentTab": 12
           },
           {
             "id": "d56322dba434716f",
             "type": "tabs",
-            "dimension": 21.53954802259887,
+            "dimension": 21.539548022598876,
             "children": [
               {
                 "id": "cf859426af761a81",
@@ -399,8 +411,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8aa0dfc8edc0efe1",
+  "active": "6d3e9d4fdfcdb770",
   "lastOpenFiles": [
+    "Kotlin/根目录-settings.gradle.md",
+    "Kotlin/compile/Kotlin 编译过程断点调试.md",
+    "Kotlin/compile",
     "Kotlin/attachments/Pasted image 20250302112703.png",
     "Kotlin/gradle-settings-conventions.md",
     "Kotlin/gradle - pluginManagement.md",
@@ -413,7 +428,6 @@
     "kotlin/gradle/build.gradle.kts.md",
     "Kotlin/gradle/build.gradle.kts.md",
     "Kotlin/kotlin 构建系统.md",
-    "Kotlin/根目录-settings.gradle.md",
     "kotlin/gradle/plugins/internal-gradle-setup.md",
     "kotlin/gradle/plugins/kotlin-dsl.md",
     "Kotlin/Kotlin-Learn-Plan.md",
@@ -442,11 +456,9 @@
     "Kotlin/kotlin学习计划.md",
     "学习计划conventions.md",
     "oh-deepseek/attachments/Pasted image 20250211071030.png",
-    "Kotlin",
     "v8 学习/attachments/Pasted image 20230917180703.png",
     "v8 学习/attachments/Pasted image 20230917121050.png",
     "前端/基础学习/css/attachments/Pasted image 20230910220220.png",
-    "前端/基础学习/css/attachments/Pasted image 20230910214908.png",
     "未命名.canvas"
   ]
 }
