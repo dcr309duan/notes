@@ -195,9 +195,21 @@
                   "icon": "lucide-book-up",
                   "title": "Release Notes 1.8.9"
                 }
+              },
+              {
+                "id": "136d5547f9a607c3",
+                "type": "leaf",
+                "state": {
+                  "type": "release-notes",
+                  "state": {
+                    "currentVersion": "1.8.10"
+                  },
+                  "icon": "lucide-book-up",
+                  "title": "Release Notes 1.8.10"
+                }
               }
             ],
-            "currentTab": 12
+            "currentTab": 13
           },
           {
             "id": "d56322dba434716f",
@@ -411,7 +423,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6d3e9d4fdfcdb770",
+  "active": "136d5547f9a607c3",
   "lastOpenFiles": [
     "Kotlin/根目录-settings.gradle.md",
     "Kotlin/compile/Kotlin 编译过程断点调试.md",
