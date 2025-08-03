@@ -45,12 +45,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法/滑动窗口/技巧：字母只有 26 个.md",
+                "file": "算法/二分搜索/二分搜索模板代码.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "技巧：字母只有 26 个"
+              "title": "二分搜索模板代码"
             }
           }
         ],
@@ -251,8 +251,10 @@
   },
   "active": "c1dbfd8ae1acc71f",
   "lastOpenFiles": [
-    "算法/滑动窗口/220.存在重复元素.md",
     "算法/滑动窗口/技巧：字母只有 26 个.md",
+    "算法/二分搜索/二分搜索模板代码.md",
+    "算法/二分搜索",
+    "算法/滑动窗口/220.存在重复元素.md",
     "算法/滑动窗口/1658.将 x 减到 0 的最小操作数.md",
     "算法/滑动窗口/attachments/Pasted image 20250803111020.png",
     "算法/滑动窗口/attachments",
@@ -292,9 +294,7 @@
     "Kotlin/gradle/plugins/attachments/Pasted image 20250302101003.png",
     "Kotlin/gradle/plugins/attachments",
     "kotlin/gradle/plugins/attachments/Pasted image 20250302101003.png",
-    "kotlin/gradle/plugins/attachments",
     "Kotlin/attachments/Pasted image 20250302092152.png",
-    "kotlin/gradle/plugins/de.undercouch.download.md",
     "oh-deepseek/attachments/Pasted image 20250211071030.png",
     "v8 学习/attachments/Pasted image 20230917180703.png",
     "未命名.canvas"
