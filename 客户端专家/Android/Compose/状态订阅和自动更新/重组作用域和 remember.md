@@ -30,7 +30,7 @@ class MutableStateActivity : ComponentActivity() {
 
 ### 如何解决？使用 remember
 
-![[客户端专家/Android 1/Compose/attachments/image-20230415194648194.png]]
+![[客户端专家/Android/Compose/attachments/image-20230415194648194.png]]
 
 上面代码虽然能编译过，但是 IDE 其实会给标红给我们提示，让我们使用 remember 进行包裹，使用这样的方式定义：
 
