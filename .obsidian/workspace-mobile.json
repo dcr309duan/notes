@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "客户端专家/Android/Compose/状态订阅和自动更新/重组的性能风险和智能优化、@Stable.md",
+                "file": "客户端专家/鸿蒙/NAPI/NAPI 介绍.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "重组的性能风险和智能优化、@Stable"
+              "title": "NAPI 介绍"
             }
           }
         ]
@@ -173,6 +173,9 @@
   },
   "active": "35cef36b9526d269",
   "lastOpenFiles": [
+    "客户端专家/Android/Compose/状态订阅和自动更新/重组的性能风险和智能优化、@Stable.md",
+    "客户端专家/鸿蒙/NAPI/NAPI 介绍.md",
+    "客户端专家/鸿蒙/NAPI",
     "客户端专家/Android/Compose/状态订阅和自动更新/无状态、状态提升和单向数据流.md",
     "客户端专家/Android/Compose/动画/Block 参数 - 监听每一帧.md",
     "客户端专家/Android/Compose/动画/消散型动画 animateDecay().md",
